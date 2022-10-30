@@ -1,0 +1,21 @@
+
+.footerContent
+{
+  background-color: #3f51b5;
+  height: 100px;
+  color: white ;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  border-top: 3px solid rgb(0, 1, 0);
+}
+
+.footerbottom
+{
+
+  background-color:rgb(29, 9, 158);
+  height: 30px;
+
+}

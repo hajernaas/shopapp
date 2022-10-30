@@ -1,0 +1,51 @@
+<div class="connexion">
+  <div class="form-container">
+  <form action="" [formGroup]="connexionForm">
+  <h2>Connexion</h2>
+    <div class="form-inline flex ">
+        <input class="flex-1" type="email" [formControl]="email"
+        name="email" placeholder="your Email please"
+        />
+    </div>
+
+    <div class="error" *ngIf="email.dirty && !email.valid">
+      <p *ngIf="email.hasError('required')">
+            l'email est obligatoire
+      </p>
+
+      <p *ngIf="!email.hasError('required')">
+         l'email ne repecte pas le bon format
+      </p>
+
+    </div>
+
+    <div class="form-inline flex">
+        <input  class="flex-1" type="password" [formControl]="password"
+        name="password" placeholder="your password please..."
+        />
+    </div>
+
+
+    <div class="error" *ngIf="password.dirty && !password.valid"  >
+      <p *ngIf="password.hasError('required')">
+        le mot de passe est obligatoire .
+     </p>
+
+      <p *ngIf="!password.hasError('minlength')">
+         le mot de passe contient au moins 6 caractéres.
+      </p>
+     </div>
+
+    <div class="btn-submit flex">
+      <button class="btn flex-1" [disabled]="!this.connexionForm.valid" (click)="handleSubmit()" >se connecter</button>
+    </div>
+  </form>
+
+
+
+
+
+
+
+  </div>
+  </div>

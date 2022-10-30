@@ -1,0 +1,40 @@
+.single-product
+{
+  margin-top:20px ;
+  margin-bottom:20px ;
+  padding-top: 50px;
+}
+
+.single-product .single-product-image
+{
+ justify-content: flex-end;
+}
+.single-product-image img
+{
+width:400px;
+height: 300px;
+padding-top: 20px;
+padding-left: 50px;
+}
+
+
+@media screen and (max-width:900px)
+{
+  .single-product{
+
+    flex-direction: column-reverse;
+  }
+  .single-product .single-product-image{
+    justify-content: center;
+
+  }
+}
+
+@media screen and (max-width:450px)
+{
+
+  .single-product .single-product-image img{
+   width:80%;
+  }
+}
+

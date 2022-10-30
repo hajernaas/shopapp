@@ -1,0 +1,60 @@
+.sign-in
+{
+ /* width:200vh;*/
+  height:70vh ;
+
+
+}
+
+.form-container
+{
+  width:600px;
+  border:0.2px solid black;
+  position: relative;
+  top:5%;
+  left:30%;
+  transform: translate(-50%-50%);
+  padding : 30px;
+  height: 300px;
+}
+.form{
+  border:0.2px solid black;
+}
+
+form .form-inline
+{
+  min-height: 30px;
+  padding:3px;
+}
+
+form .form-inline input{
+font-size :1.4rem;
+height: 40px;
+}
+
+ .btn-submit .btn{
+  min-width:100px;
+  height: 40px;
+  border: 0.5px solid grey;
+  font-size: 1.4rem;
+  background-color: darkslategrey;
+  font-weight: bold;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+
+@media screen and(max-width:650px)
+{
+   .form-container
+   {
+     width:80%;
+   }
+}
+
+
+

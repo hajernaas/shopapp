@@ -1,0 +1,32 @@
+[
+  {
+    "id":"1",
+    "firstname":"dupont",
+    "lastname":"Alice",
+    "email":"dupont.alice@gmail.com",
+    "password":"12345alice" ,
+    "passwordConfirm":   "12345alice"
+  },
+
+  {
+    "id":"2",
+    "firstname":"naas",
+    "lastname":"hajer",
+    "email":"naas.hajer@gmail.com",
+    "password":"Addouma2013#" ,
+    "passwordConfirm":"Addouma2013#"
+  },
+
+  {
+    "id":"3",
+    "firstname":"zied",
+    "lastname":"kasraoui",
+    "email":"kasraoui.ziedr@gmail.com",
+    "password":"Addouma1#" ,
+    "passwordConfirm":"Addouma1#"
+  }
+
+
+
+
+]

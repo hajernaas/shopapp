@@ -1,0 +1,341 @@
+[
+{
+  "id":"123",
+  "name":"Robe à imprimé floral à noeud découpé",
+  "desc":"fdsfds",
+  "category": ["robe1","femme"],
+  "imgURL": ["/assets/images/products/robe1/1.webp",
+  "/assets/images/products/robe1/2.webp",
+  "/assets/images/products/robe1/3.webp"
+],
+  "new_prix":4670,
+  "old_prix": 6056,
+  "created_date":"12/05/2023"
+},
+{
+  "id":"345",
+  "name":"Robe portefeuille à volants fleuri ",
+  "desc":"fdqfjlkssfjks",
+  "category": ["robe2","femme"],
+  "imgURL":
+  ["/assets/images/products/robe2/1.webp",
+  "/assets/images/products/robe2/2.webp",
+  "/assets/images/products/robe2/3.webp"
+],
+  "new_prix":1556,
+  "old_prix": 2056,
+  "created_date":"09/10/2022"
+},
+
+{
+  "id":"4556",
+  "name":"Robe fondue à fines brides avec boutons",
+  "desc":"fdsfds",
+  "category": ["robe1","femme"],
+  "imgURL": ["/assets/images/products/robe3/1.webp",
+  "/assets/images/products/robe3/2.webp",
+  "/assets/images/products/robe3/3.webp"
+],
+  "new_prix":2370,
+  "old_prix": 3456,
+  "created_date":"12/05/2023"
+},
+
+{
+  "id":"46",
+  "name":"Robe fondue à fines brides avec boutons",
+  "desc":"fdsfds",
+  "category": ["robe1","femme"],
+  "imgURL": ["/assets/images/products/robe2/1.webp",
+  "/assets/images/products/robe2/2.webp",
+  "/assets/images/products/robe2/3.webp"
+],
+  "new_prix":4570,
+  "old_prix": 8756,
+  "created_date":"12/05/2023"
+},
+
+
+{
+  "id":"47666",
+  "name":"Robe à imprimé floral à noeud découpé",
+  "desc":"fdsfds",
+  "category": ["robe1","femme"],
+  "imgURL": ["/assets/images/products/robe2/1.webp",
+  "/assets/images/products/robe2/2.webp",
+  "/assets/images/products/robe2/3.webp"
+],
+  "new_prix":4570,
+  "old_prix": 8756,
+  "created_date":"12/05/2023"
+},
+
+{
+  "id":"4976",
+  "name":"Robe à imprimé floral à noeud découpé",
+  "desc":"fdsfds",
+  "category": ["robe1","femme"],
+  "imgURL": ["/assets/images/products/robe2/1.webp",
+  "/assets/images/products/robe2/2.webp",
+  "/assets/images/products/robe2/3.webp"
+],
+  "new_prix":4570,
+  "old_prix": 8756,
+  "created_date":"12/05/2023"
+},
+{
+  "id":"43467",
+  "name":"Robe à imprimé floral à noeud découpé",
+  "desc":"fdsfds",
+  "category": ["robe1","femme"],
+  "imgURL": ["/assets/images/products/robe2/1.webp",
+  "/assets/images/products/robe2/2.webp",
+  "/assets/images/products/robe2/3.webp"
+],
+  "new_prix":4570,
+  "old_prix": 8756,
+  "created_date":"12/05/2023"
+},
+
+{
+  "id":"23445",
+  "name":"Robe portefeuille à volants fleuri",
+  "desc":"fdsfds",
+  "category": ["robe1","femme"],
+  "imgURL": ["/assets/images/products/robe2/1.webp",
+  "/assets/images/products/robe2/2.webp",
+  "/assets/images/products/robe2/3.webp"
+],
+  "new_prix":4570,
+  "old_prix": 8756,
+  "created_date":"12/05/2023"
+},
+
+
+{
+  "id":"22345",
+  "name":"Robe portefeuille à volants fleuri",
+  "desc":"fdsfds",
+  "category": ["robe1","femme"],
+  "imgURL": ["/assets/images/products/robe2/1.webp",
+  "/assets/images/products/robe2/2.webp",
+  "/assets/images/products/robe2/3.webp"
+],
+  "new_prix":4570,
+  "old_prix": 8756,
+  "created_date":"12/05/2023"
+},
+{
+  "id":"235445",
+  "name":"Robe portefeuille à volants fleuri",
+  "desc":"fdsfds",
+  "category": ["robe1","femme"],
+  "imgURL": ["/assets/images/products/robe2/1.webp",
+  "/assets/images/products/robe2/2.webp",
+  "/assets/images/products/robe2/3.webp"
+],
+  "new_prix":4570,
+  "old_prix": 8756,
+  "created_date":"12/05/2023"
+},
+
+{
+  "id":"2385",
+  "name":"Robe portefeuille à volants fleuri",
+  "desc":"fdsfds",
+  "category": ["robe1","femme"],
+  "imgURL": ["/assets/images/products/robe2/1.webp",
+  "/assets/images/products/robe2/2.webp",
+  "/assets/images/products/robe2/3.webp"
+],
+  "new_prix":4570,
+  "old_prix": 8756,
+  "created_date":"12/05/2023"
+},
+{
+  "id":"4645",
+  "name":"Robe portefeuille à volants fleuri",
+  "desc":"fdsfds",
+  "category": ["robe1","femme"],
+  "imgURL": ["/assets/images/products/robe2/1.webp",
+  "/assets/images/products/robe2/2.webp",
+  "/assets/images/products/robe2/3.webp"
+],
+  "new_prix":4570,
+  "old_prix": 8756,
+  "created_date":"12/05/2023"
+},
+{
+  "id":"123",
+  "name":"Robe à imprimé floral à noeud découpé",
+  "desc":"fdsfds",
+  "category": ["robe1","femme"],
+  "imgURL": ["/assets/images/products/robe1/1.webp",
+  "/assets/images/products/robe1/2.webp",
+  "/assets/images/products/robe1/3.webp"
+],
+  "new_prix":4670,
+  "old_prix": 6056,
+  "created_date":"12/05/2023"
+},
+{
+  "id":"345",
+  "name":"Robe portefeuille à volants fleuri ",
+  "desc":"fdqfjlkssfjks",
+  "category": ["robe2","femme"],
+  "imgURL":
+  ["/assets/images/products/robe2/1.webp",
+  "/assets/images/products/robe2/2.webp",
+  "/assets/images/products/robe2/3.webp"
+],
+  "new_prix":1556,
+  "old_prix": 2056,
+  "created_date":"09/10/2022"
+},
+
+{
+  "id":"4556",
+  "name":"Robe fondue à fines brides avec boutons",
+  "desc":"fdsfds",
+  "category": ["robe1","femme"],
+  "imgURL": ["/assets/images/products/robe3/1.webp",
+  "/assets/images/products/robe3/2.webp",
+  "/assets/images/products/robe3/3.webp"
+],
+  "new_prix":2370,
+  "old_prix": 3456,
+  "created_date":"12/05/2023"
+},
+{
+  "id":"123",
+  "name":"Robe à imprimé floral à noeud découpé",
+  "desc":"fdsfds",
+  "category": ["robe1","femme"],
+  "imgURL": ["/assets/images/products/robe1/1.webp",
+  "/assets/images/products/robe1/2.webp",
+  "/assets/images/products/robe1/3.webp"
+],
+  "new_prix":4670,
+  "old_prix": 6056,
+  "created_date":"12/05/2023"
+},
+{
+  "id":"345",
+  "name":"Robe portefeuille à volants fleuri ",
+  "desc":"fdqfjlkssfjks",
+  "category": ["robe2","femme"],
+  "imgURL":
+  ["/assets/images/products/robe2/1.webp",
+  "/assets/images/products/robe2/2.webp",
+  "/assets/images/products/robe2/3.webp"
+],
+  "new_prix":1556,
+  "old_prix": 2056,
+  "created_date":"09/10/2022"
+},
+
+{
+  "id":"4556",
+  "name":"Robe fondue à fines brides avec boutons",
+  "desc":"fdsfds",
+  "category": ["robe1","femme"],
+  "imgURL": ["/assets/images/products/robe3/1.webp",
+  "/assets/images/products/robe3/2.webp",
+  "/assets/images/products/robe3/3.webp"
+],
+  "new_prix":2370,
+  "old_prix": 3456,
+  "created_date":"12/05/2023"
+},
+
+
+{
+  "id":"123",
+  "name":"Robe à imprimé floral à noeud découpé",
+  "desc":"fdsfds",
+  "category": ["robe1","femme"],
+  "imgURL": ["/assets/images/products/robe1/1.webp",
+  "/assets/images/products/robe1/2.webp",
+  "/assets/images/products/robe1/3.webp"
+],
+  "new_prix":4670,
+  "old_prix": 6056,
+  "created_date":"12/05/2023"
+},
+{
+  "id":"345",
+  "name":"Robe portefeuille à volants fleuri ",
+  "desc":"fdqfjlkssfjks",
+  "category": ["robe2","femme"],
+  "imgURL":
+  ["/assets/images/products/robe2/1.webp",
+  "/assets/images/products/robe2/2.webp",
+  "/assets/images/products/robe2/3.webp"
+],
+  "new_prix":1556,
+  "old_prix": 2056,
+  "created_date":"09/10/2022"
+},
+
+{
+  "id":"4556",
+  "name":"Robe fondue à fines brides avec boutons",
+  "desc":"fdsfds",
+  "category": ["robe1","femme"],
+  "imgURL": ["/assets/images/products/robe3/1.webp",
+  "/assets/images/products/robe3/2.webp",
+  "/assets/images/products/robe3/3.webp"
+],
+  "new_prix":2370,
+  "old_prix": 3456,
+  "created_date":"12/05/2023"
+},
+{
+  "id":"123",
+  "name":"Robe à imprimé floral à noeud découpé",
+  "desc":"fdsfds",
+  "category": ["robe1","femme"],
+  "imgURL": ["/assets/images/products/robe1/1.webp",
+  "/assets/images/products/robe1/2.webp",
+  "/assets/images/products/robe1/3.webp"
+],
+  "new_prix":4670,
+  "old_prix": 6056,
+  "created_date":"12/05/2023"
+},
+{
+  "id":"345",
+  "name":"Robe portefeuille à volants fleuri ",
+  "desc":"fdqfjlkssfjks",
+  "category": ["robe2","femme"],
+  "imgURL":
+  ["/assets/images/products/robe2/1.webp",
+  "/assets/images/products/robe2/2.webp",
+  "/assets/images/products/robe2/3.webp"
+],
+  "new_prix":1556,
+  "old_prix": 2056,
+  "created_date":"09/10/2022"
+},
+
+{
+  "id":"345",
+  "name":"Robe portefeuille à volants fleuri ",
+  "desc":"fdqfjlkssfjks",
+  "category": ["robe2","femme"],
+  "imgURL":
+  ["/assets/images/products/robe2/1.webp",
+  "/assets/images/products/robe2/2.webp",
+  "/assets/images/products/robe2/3.webp"
+],
+  "new_prix":1556,
+  "old_prix": 2056,
+  "created_date":"09/10/2022"
+}
+
+
+
+
+
+
+]

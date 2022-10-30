@@ -1,0 +1,28 @@
+<div class="modal-product">
+  <div class="overLay">
+  </div>
+  <div class="modal-product-Container  flex ">
+      <div class="modal-product-img flex-1">
+         <img [src] ="prod ? prod.imgURL[0]:'' "
+          [alt]="prod?.name">
+      </div>
+      <div class="modal-product_details  flex-1 flex jcc ali column">
+              <h2>{{prod?.name}}</h2>
+          <div class="modal-product_details_price">
+                <h4>${{(prod?.new_prix || 0)/100}}</h4>
+                <del>
+                      <h4>$ {{(prod?.old_prix || 0)/100}}</h4>
+                </del>
+          </div>
+          <div class="modal-product_details_DateC">
+             creé le <h4>{{ prod?.created_date |date:"dd/MM/YYYY"}}</h4>
+          </div>
+          <button (click)="closeM()" class="btn_close" >fermer</button>
+      </div>
+
+
+
+    </div>
+
+
+</div>

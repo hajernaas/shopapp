@@ -1,0 +1,67 @@
+.signup
+{
+    width:1200px;
+    height: 300px;
+    text-align: center;
+    padding:20px 20px;
+    margin : 30px auto;
+    border: 0.5px solid black;
+
+}
+
+.form-inline input{
+border: 0.1px solid #ccc ;
+height: 40px;
+width:60%;
+margin:5px;
+padding: 0 10px;
+font-size: 1.4rem;
+
+}
+
+.form-inline button{
+  border: 0.1px solid rgb(32, 32, 32) ;
+  height: 40px;
+  background-color: dimgray;
+  width:100px;
+  color :black;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.4rem;
+  }
+
+  .btn_signup{
+    height: 40px;
+    min-width:200px;
+    color :white;
+    cursor: pointer;
+    margin: 10px 0px;
+    outline: none;
+    padding:10px 0;
+    font-size: 1.4rem;
+    background-color: #1d1d1d;
+    box-shadow: 0 3px 5px -1px #0003,0 6px 10px #00000024, 0 1px 18px #0000001f;
+    }
+
+
+
+
+
+
+
+.tabU{
+  border: 3px solid black;
+  width:30%;
+  text-align: center;
+  margin : 0 auto;
+
+
+
+}
+.tabU td {
+
+ width:30%;
+ padding: 20px 30px;
+ margin: 5px 10px;
+
+ }
