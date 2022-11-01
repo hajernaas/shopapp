@@ -2,6 +2,7 @@
 <div class="form-container">
 <form #f="ngForm" (ngSubmit)="handleSubmit(f)" >
 <h2>Inscription</h2>
+<p class="tc">Si vous avez un compte , cliquez ici pour vous <a routerLink="/connexion" >identifier</a></p>
   <div class="form-inline flex gap-10 wrap"  >
     <input  class="flex-1" type="text"
      name="FirstName" placeholder="your firstName..."  required

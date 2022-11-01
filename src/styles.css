@@ -9,7 +9,7 @@ body
   line-height: 24px;
   font-weight:400;
   }
-.flex{
+.flex , .row{
   display:flex;
 }
 .flex-1{
@@ -39,31 +39,68 @@ align-items: center;
   min-width: 200px;
   padding:20px 0px ;
   margin: 10px 0px;
-  cursor : pointer
+  cursor : pointer;
+  background-color: #3f51b5;
+  color:white;
 }
 .gap-10
 {
   gap:10px;
 }
+
+.gap-30
+{
+  gap:30px;
+}
+
+
+button:disabled
+{
+cursor:not-allowed;
+opacity:0.9;
+margin:10px 3px;
+background-color: #3f51b5;
+
+}
+
+.error
+{
+color :red;
+
+}
+form p{
+  margin:0px
+}
+
+.tc{
+  text-align:center;
+}
+
+
+
 .sign-in
 {
   /*width:200vh;*/
   height:70vh ;
 
 }
-
+form h2{
+  text-align: center;
+}
 .form-container
 {
   width:600px;
- border:0.2px solid black;
+  border:0.2px solid black;
   position: relative;
-  top:15%;
+  top:7%;
   left:30%;
   transform: translate(-50%-50%);
-  padding : 30px;
+  padding : 15px;
+  box-shadow: 0 3px 5px -1px #0003,0 6px 10px #00000024, 0 1px 18px #0000001f;
 }
 .form{
   border:0.2px solid black;
+
 }
 
 form .form-inline
@@ -77,16 +114,16 @@ font-size :1.4rem;
 height: 40px;
 }
 
+
  .btn{
   min-width:70px;
-  height: 30px;
+  height: 45px;
   color: white;
   margin: 10px 20px;
   outline: none;
   padding:10px 20px;
   cursor: pointer;
   background-color: #1d1d1d;
-
   box-shadow: 0 3px 5px -1px #0003,0 6px 10px #00000024, 0 1px 18px #0000001f;
 
 }

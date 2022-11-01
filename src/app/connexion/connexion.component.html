@@ -2,6 +2,7 @@
   <div class="form-container">
   <form action="" [formGroup]="connexionForm">
   <h2>Connexion</h2>
+  <p class="tc">Si vous n'avez pas un compte cliquez ici pour vous <a routerLink="/signup">inscrire</a>  </p>
     <div class="form-inline flex ">
         <input class="flex-1" type="email" [formControl]="email"
         name="email" placeholder="your Email please"
@@ -37,7 +38,7 @@
      </div>
 
     <div class="btn-submit flex">
-      <button class="btn flex-1" [disabled]="!this.connexionForm.valid" (click)="handleSubmit()" >se connecter</button>
+      <button class="btn flex-1" [disabled]="!this.connexionForm.valid" (click)="handleSubmit()">se connecter</button>
     </div>
   </form>
 

@@ -30,7 +30,9 @@
 .modal-product_details {
   text-align:center;
 }
-
+.modal-product_details_button{
+  width:95%
+}
 
 @media screen and (max-width:660px) {
   .modal-product-Container {
