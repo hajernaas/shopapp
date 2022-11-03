@@ -14,6 +14,8 @@ export class ProductComponent implements OnInit ,OnDestroy {
   id:string|undefined;
   productSub:Subscription | undefined;
   isLoading: boolean = true;
+  img_current:string|undefined;
+  //img_next:string|undefined;
 
   constructor(private route:ActivatedRoute, private productService:ProductService) {
   }
@@ -26,6 +28,7 @@ export class ProductComponent implements OnInit ,OnDestroy {
        next: (products:Product[])=>{
         this.Product=products.filter(p=> p.id===this.id)[0]
           this.isLoading=false;
+          this.img_current=this.Product.imgURL[0];
         console.log("pppaaa", this.Product)
         },
        error: (error:any)=>{
@@ -51,6 +54,13 @@ export class ProductComponent implements OnInit ,OnDestroy {
     console.log("dddd",prod.id);
     console.log("eeee");
   }*/
+
+  handleChangeCurrentImage(imgnext:string)
+  {
+    this.img_current=imgnext;
+  }
+
+
 
 }
 

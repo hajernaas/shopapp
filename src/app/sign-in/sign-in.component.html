@@ -3,7 +3,7 @@
 <form #f="ngForm" (ngSubmit)="handleSubmit(f)" >
 <h2>Inscription</h2>
 <p class="tc">Si vous avez un compte , cliquez ici pour vous <a routerLink="/connexion" >identifier</a></p>
-  <div class="form-inline flex gap-10 wrap"  >
+  <div class="form-inline flex gap-5 wrap"  >
     <input  class="flex-1" type="text"
      name="FirstName" placeholder="your firstName..."  required
      ngModel
@@ -21,7 +21,7 @@
     -->
   </div>
 
-  <div class="form-inline flex gap-10">
+  <div class="form-inline flex gap-5">
       <input class="flex-1" type="email"
       name="Email"placeholder="your Email please" required
       pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}"

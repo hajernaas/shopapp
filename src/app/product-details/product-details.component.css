@@ -1,0 +1,21 @@
+.product-details-title ul li a{
+  text-decoration: none;
+  color:inherit;
+  padding:10px;
+  background-color: #ccc;
+  border-radius: 10px 10px 0 0;
+
+}
+.single-product_details-container {
+  padding:10px;
+  border:0.1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+}
+
+
+.product-details-title ul li a.active {
+  background-color:  #3f51b5;
+  color:white;
+}

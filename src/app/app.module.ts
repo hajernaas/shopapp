@@ -17,6 +17,13 @@ import { ConnexionComponent } from './connexion/connexion.component';
 import { RouterModule} from '@angular/router';
 import { ROUTES } from './app.routing';
 import { LoadingComponent } from './loading/loading.component';
+import { PayementCardComponent } from './payement-card/payement-card.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
+import { ProductDescriptionComponent } from './product-description/product-description.component';
+import { ProductAdditionalComponent } from './product-additional/product-additional.component';
+import { ProductReviewsComponent } from './product-reviews/product-reviews.component';
+import { ProductVendorComponent } from './product-vendor/product-vendor.component';
+import { AsideComponent } from './aside/aside.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +38,14 @@ import { LoadingComponent } from './loading/loading.component';
     SignInComponent,
     SignupComponent,
     ConnexionComponent,
-    LoadingComponent
+    LoadingComponent,
+    PayementCardComponent,
+    ProductDetailsComponent,
+    ProductDescriptionComponent,
+    ProductAdditionalComponent,
+    ProductReviewsComponent,
+    ProductVendorComponent,
+    AsideComponent
   ],
   imports: [
     BrowserModule,

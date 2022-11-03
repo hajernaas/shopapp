@@ -1,6 +1,8 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { environment } from 'src/environments/environment';
+import { auth_items, nav_items } from '../appi/nav';
+import { NavBar } from '../model/nav-bar';
 import { ProductService } from '../services/product.service';
 
 @Component({
@@ -13,6 +15,8 @@ data: Number | undefined
 second:Number | undefined
 secondSub:Subscription |undefined
 siteName:string=environment.siteName;
+nav:NavBar[]=nav_items;
+auth_data:NavBar[]=auth_items;
 
 constructor(private productService:ProductService) { }
 
@@ -21,7 +25,8 @@ constructor(private productService:ProductService) { }
     .subscribe((value)=>{this.data=value})
     this.productService.getSecond()
     .subscribe((value)=>{this.second=value})*/
-
+console.log(this.nav);
+console.log(this.auth_data);
 
     this.secondSub=this.productService.getSecond()
     .subscribe({
@@ -36,6 +41,9 @@ constructor(private productService:ProductService) { }
       }
       }  )
 
+  }
+  auth_items(auth_items: any) {
+    throw new Error('Method not implemented.');
   }
 
   ngOnDestroy():void{

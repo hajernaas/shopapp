@@ -6,12 +6,24 @@
   "category": ["robe1","femme"],
   "imgURL": ["/assets/images/products/robe1/1.webp",
   "/assets/images/products/robe1/2.webp",
-  "/assets/images/products/robe1/3.webp"
+  "/assets/images/products/robe1/3.webp",
+  "/assets/images/products/robe1/4.webp"
 ],
-  "new_prix":4670,
-  "old_prix": 6056,
-  "created_date":"12/05/2023"
+  "new_prix":2400,
+  "old_prix": 3000,
+  "created_date":"12/05/2023",
+  "stock":"54488",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
 },
+
+
+
+
 {
   "id":"345",
   "name":"Robe portefeuille à volants fleuri ",
@@ -24,7 +36,14 @@
 ],
   "new_prix":1556,
   "old_prix": 2056,
-  "created_date":"09/10/2022"
+  "created_date":"09/10/2022",
+  "stock":"55678",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
 },
 
 {
@@ -38,7 +57,14 @@
 ],
   "new_prix":2370,
   "old_prix": 3456,
-  "created_date":"12/05/2023"
+  "created_date":"12/05/2023",
+  "stock":"543458",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
 },
 
 {
@@ -52,7 +78,14 @@
 ],
   "new_prix":4570,
   "old_prix": 8756,
-  "created_date":"12/05/2023"
+  "created_date":"12/05/2023",
+  "stock":"54438",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
 },
 
 
@@ -65,9 +98,19 @@
   "/assets/images/products/robe2/2.webp",
   "/assets/images/products/robe2/3.webp"
 ],
+
   "new_prix":4570,
   "old_prix": 8756,
-  "created_date":"12/05/2023"
+  "created_date":"12/05/2023",
+  "stock":"54668",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
+
+
 },
 
 {
@@ -81,7 +124,14 @@
 ],
   "new_prix":4570,
   "old_prix": 8756,
-  "created_date":"12/05/2023"
+  "created_date":"12/05/2023",
+  "stock":"566588",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
 },
 {
   "id":"43467",
@@ -94,7 +144,15 @@
 ],
   "new_prix":4570,
   "old_prix": 8756,
-  "created_date":"12/05/2023"
+  "created_date":"12/05/2023",
+
+  "stock":"543223",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
 },
 
 {
@@ -108,7 +166,16 @@
 ],
   "new_prix":4570,
   "old_prix": 8756,
-  "created_date":"12/05/2023"
+  "created_date":"12/05/2023",
+  "stock":"544338",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
+
+
 },
 
 
@@ -123,7 +190,15 @@
 ],
   "new_prix":4570,
   "old_prix": 8756,
-  "created_date":"12/05/2023"
+  "created_date":"12/05/2023",
+
+  "stock":"54338",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
 },
 {
   "id":"235445",
@@ -136,7 +211,14 @@
 ],
   "new_prix":4570,
   "old_prix": 8756,
-  "created_date":"12/05/2023"
+  "created_date":"12/05/2023",
+  "stock":"54338",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
 },
 
 {
@@ -150,7 +232,14 @@
 ],
   "new_prix":4570,
   "old_prix": 8756,
-  "created_date":"12/05/2023"
+  "created_date":"12/05/2023",
+  "stock":"52388",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
 },
 {
   "id":"4645",
@@ -163,7 +252,14 @@
 ],
   "new_prix":4570,
   "old_prix": 8756,
-  "created_date":"12/05/2023"
+  "created_date":"12/05/2023",
+  "stock":"54378",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
 },
 {
   "id":"123",
@@ -176,7 +272,14 @@
 ],
   "new_prix":4670,
   "old_prix": 6056,
-  "created_date":"12/05/2023"
+  "created_date":"12/05/2023",
+  "stock":"58888",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
 },
 {
   "id":"345",
@@ -190,7 +293,14 @@
 ],
   "new_prix":1556,
   "old_prix": 2056,
-  "created_date":"09/10/2022"
+  "created_date":"09/10/2022",
+  "stock":"543é8",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
 },
 
 {
@@ -204,7 +314,14 @@
 ],
   "new_prix":2370,
   "old_prix": 3456,
-  "created_date":"12/05/2023"
+  "created_date":"12/05/2023",
+  "stock":"544666",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
 },
 {
   "id":"123",
@@ -217,7 +334,14 @@
 ],
   "new_prix":4670,
   "old_prix": 6056,
-  "created_date":"12/05/2023"
+  "created_date":"12/05/2023",
+  "stock":"57888",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
 },
 {
   "id":"345",
@@ -231,7 +355,14 @@
 ],
   "new_prix":1556,
   "old_prix": 2056,
-  "created_date":"09/10/2022"
+  "created_date":"09/10/2022",
+  "stock":"54458",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
 },
 
 {
@@ -245,7 +376,14 @@
 ],
   "new_prix":2370,
   "old_prix": 3456,
-  "created_date":"12/05/2023"
+  "created_date":"12/05/2023",
+  "stock":"545558",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
 },
 
 
@@ -260,7 +398,14 @@
 ],
   "new_prix":4670,
   "old_prix": 6056,
-  "created_date":"12/05/2023"
+  "created_date":"12/05/2023",
+  "stock":"5488988",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
 },
 {
   "id":"345",
@@ -274,7 +419,14 @@
 ],
   "new_prix":1556,
   "old_prix": 2056,
-  "created_date":"09/10/2022"
+  "created_date":"09/10/2022",
+  "stock":"554588",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
 },
 
 {
@@ -288,7 +440,14 @@
 ],
   "new_prix":2370,
   "old_prix": 3456,
-  "created_date":"12/05/2023"
+  "created_date":"12/05/2023",
+  "stock":"5777788",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
 },
 {
   "id":"123",
@@ -301,7 +460,14 @@
 ],
   "new_prix":4670,
   "old_prix": 6056,
-  "created_date":"12/05/2023"
+  "created_date":"12/05/2023",
+  "stock":"548",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
 },
 {
   "id":"345",
@@ -315,7 +481,14 @@
 ],
   "new_prix":1556,
   "old_prix": 2056,
-  "created_date":"09/10/2022"
+  "created_date":"09/10/2022",
+  "stock":"566688",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
 },
 
 {
@@ -330,7 +503,14 @@
 ],
   "new_prix":1556,
   "old_prix": 2056,
-  "created_date":"09/10/2022"
+  "created_date":"09/10/2022",
+  "stock":"546688",
+  "color":["red","blue","green"],
+  "size":["s","M","L","XL"],
+  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+
 }
 
 

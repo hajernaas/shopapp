@@ -29,16 +29,21 @@ header a
   text-transform: uppercase;
 
 }
+
+
 @media screen and (max-width:900px){
     header .menu
     {
       display: none;
 
     }
-    header
+    header .navbar
     {
-      justify-content:center ;
+      display: block;
+
     }
+
+
 }
 
 

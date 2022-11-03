@@ -18,6 +18,12 @@ body
 .flex-2{
   flex:2;
 }
+.flex-3{
+  flex:3;
+}
+.flex-4{
+  flex:4;
+}
 .ali
 {
 align-items: center;
@@ -33,6 +39,10 @@ align-items: center;
 .b{
    border: 0.1px solid black;
 }
+.none{
+  display:none;
+}
+
 .btn_close {
   height: 60px;
   outline: none;
@@ -43,9 +53,18 @@ align-items: center;
   background-color: #3f51b5;
   color:white;
 }
+.gap-5
+{
+  gap:5px;
+}
 .gap-10
 {
   gap:10px;
+}
+
+.gap-20
+{
+  gap:20px;
 }
 
 .gap-30
@@ -92,9 +111,9 @@ form h2{
   width:600px;
   border:0.2px solid black;
   position: relative;
-  top:7%;
+  top:3%;
   left:30%;
-  transform: translate(-50%-50%);
+  /*transform: translate(-40%-40%);*/
   padding : 15px;
   box-shadow: 0 3px 5px -1px #0003,0 6px 10px #00000024, 0 1px 18px #0000001f;
 }
@@ -105,13 +124,13 @@ form h2{
 
 form .form-inline
 {
-  min-height: 30px;
+  min-height: 20px;
   padding:3px;
 }
 
 form .form-inline input{
 font-size :1.4rem;
-height: 40px;
+height: 20px;
 }
 
 
@@ -128,6 +147,10 @@ height: 40px;
 
 }
 
+.btn-main{
+
+  background-color: #3f51b5;
+}
 .wrap{
   flex-wrap: wrap;
 }
@@ -148,6 +171,12 @@ height: 40px;
   margin:0px auto;
   min-height: 70vh;
 }
+
+.unlisted{
+  list-style:none;
+  padding:0;
+}
+
 
 @media screen and (max-width:1200px)
 {

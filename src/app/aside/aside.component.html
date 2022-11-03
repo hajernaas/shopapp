@@ -1,0 +1,8 @@
+
+<div class="aside-nav mobile-nav">
+  <ul class="unlisted">
+    <li *ngFor="let item of nav "><a [routerLink]="item?.path">{{item?.name}}</a></li>
+    <li *ngFor="let item of auth_data "><a [routerLink]="item?.path" >{{item?.name}}</a></li>
+
+  </ul>
+</div>

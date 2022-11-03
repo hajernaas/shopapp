@@ -3,41 +3,48 @@
   <p>{{Product?.id}}</p>
 -->
 <app-loading *ngIf="isLoading"></app-loading>
-<div *ngIf="!isLoading" class="single-product flex content ">
+<div *ngIf="!isLoading" class="single-product flex gap-10 content ">
 
-    <div class="single-product-image flex-1 ">
-      <img [src] ="Product ? Product.imgURL[0]:'' "
-      [alt]="Product?.name">
+  <div class="single-product-image flex-1 gap-10 flex">
+    <div class="single-product-image-list flex column gap-10">
+      <img *ngFor="let url of Product?.imgURL" [src]="url " [alt]="Product?.name" width="100px"
+        (click)="handleChangeCurrentImage(url)" (mouseover)="handleChangeCurrentImage(url)" class="current"
+        [ngClass]="{current : img_current==url}">
     </div>
-    <div class="signle-product-details flex-1 ">
+    <div class="single-product-image-current flex-1">
+      <img [src]="img_current" [alt]="Product?.name">
+    </div>
+    <!--
+          "Product ? Product.imgURL[0]:'' "
+         -->
+  </div>
 
-      <h2>{{Product?.name}}</h2>
-      <div class="signle-product_details_price">
-            <h4>{{(Product?.new_prix || 0)/100| currency:"EUR"}}</h4>
-            <del>
-                  <h4>{{(Product?.old_prix || 0)/100 | currency:"EUR"}}</h4>
-            </del>
-      </div>
-      <div class="signle-product_details_DateC">
-         creé le <h4>{{ Product?.created_date |date:"dd/MM/YYYY"}}</h4>
-      </div>
+  <div class="signle-product-details flex-1 ">
+    <h2>{{Product?.name}}</h2>
+    <div class="signle-product_details_price flex ali gap-20 jcc">
+      <h4>{{(Product?.new_prix || 0)/100| currency:"EUR"}}</h4>
+      <del>
+        <h4>{{(Product?.old_prix || 0)/100 | currency:"EUR"}}</h4>
+      </del>
+      <h4>
+          {{Product? ((Product.old_prix/100-Product.new_prix/100) / (Product.old_prix/100)|percent) : null}}
+      </h4>
+    </div>
 
-     <div  class=" signle-product_button">
-            <button  class="btn"> Pay Now </button>
+
+    <div class=" signle-product_button flex column ">
+      <button class="btn btn-main flex-1"> Pay Now </button>
+      <button class="btn btn-main flex-1"> Add to card </button>
+      <app-payement-card></app-payement-card>
+    </div>
+
+    <div class="signle-product_details_DateC flex ali gap-20 jcc ">
+      Créer le<h4>{{ Product?.created_date |date:"dd/MM/YYYY"}}</h4>
     </div>
 
 
 
-
+  </div>
 </div>
-
-
-
-
-
-
-
-
-
-
+<app-product-details [prod]="Product"></app-product-details>
 
