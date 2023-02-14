@@ -30,12 +30,12 @@
     <div class="error" *ngIf="password.dirty && !password.valid"  >
       <p *ngIf="password.hasError('required')">
         le mot de passe est obligatoire .
-     </p>
+      </p>
 
       <p *ngIf="!password.hasError('minlength')">
          le mot de passe contient au moins 6 caractéres.
       </p>
-     </div>
+    </div>
 
     <div class="btn-submit flex">
       <button class="btn flex-1" [disabled]="!this.connexionForm.valid" (click)="handleSubmit()">se connecter</button>

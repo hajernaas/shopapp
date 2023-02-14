@@ -24,6 +24,18 @@ import { ProductAdditionalComponent } from './product-additional/product-additio
 import { ProductReviewsComponent } from './product-reviews/product-reviews.component';
 import { ProductVendorComponent } from './product-vendor/product-vendor.component';
 import { AsideComponent } from './aside/aside.component';
+import { HomeSliderComponent } from './home-slider/home-slider.component';
+import { ProductContainerComponent } from './product-container/product-container.component';
+import { HeaderTitleComponent } from './header-title/header-title.component';
+import { PageTitleComponent } from './page-title/page-title.component';
+import { ContactComponent } from './contact/contact.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import {MatCardModule} from '@angular/material/card';
+import { LoginComponent } from './pages/login/login.component';
+import {MatInputModule} from '@angular/material/input';
+import { MatButtonModule, MatCheckboxModule, MatDialogModule, MatIconModule, MatSliderModule } from '@angular/material';
+import {matFormFieldAnimations, MatFormFieldModule} from '@angular/material/form-field';
+
 
 @NgModule({
   declarations: [
@@ -45,7 +57,14 @@ import { AsideComponent } from './aside/aside.component';
     ProductAdditionalComponent,
     ProductReviewsComponent,
     ProductVendorComponent,
-    AsideComponent
+    AsideComponent,
+    HomeSliderComponent,
+    ProductContainerComponent,
+    HeaderTitleComponent,
+    PageTitleComponent,
+    ContactComponent,
+    PageNotFoundComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -53,7 +72,16 @@ import { AsideComponent } from './aside/aside.component';
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    RouterModule.forRoot(ROUTES)
+    RouterModule.forRoot(ROUTES),
+    MatCardModule,
+    MatInputModule,
+    MatButtonModule,
+    MatFormFieldModule,
+    MatCheckboxModule,
+    MatIconModule,
+    MatSliderModule,
+    MatDialogModule
+
 
   ],
   providers: [],

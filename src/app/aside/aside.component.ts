@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { auth_items, nav_items } from '../appi/nav';
 import { NavBar } from '../model/nav-bar';
 
@@ -10,9 +10,17 @@ import { NavBar } from '../model/nav-bar';
 export class AsideComponent implements OnInit {
   nav:NavBar[]=nav_items;
   auth_data:NavBar[]=auth_items;
+  @ Output () close: EventEmitter<string>= new EventEmitter<string>()
+
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+
+  handleClose(){
+    this.close.emit();
   }
 
 }

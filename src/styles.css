@@ -31,7 +31,8 @@ align-items: center;
 .jcc{
   justify-content: center;
 }
-
+h2{font-size: 2rem;}
+h3{font-size: 1rem;}
 .column
 {
   flex-direction: column;
@@ -124,13 +125,13 @@ form h2{
 
 form .form-inline
 {
-  min-height: 20px;
+  min-height: 30px;
   padding:3px;
 }
 
 form .form-inline input{
 font-size :1.4rem;
-height: 20px;
+height: 33px;
 }
 
 
@@ -175,6 +176,11 @@ height: 20px;
 .unlisted{
   list-style:none;
   padding:0;
+}
+
+.unlisted a{
+  text-decoration:none;
+  color:inherit;
 }
 
 

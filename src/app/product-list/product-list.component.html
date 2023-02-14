@@ -1,33 +1,19 @@
-
 <!--
    <div>table : {{ Product| json }}</div>
 -->
 
+<div class="product-list">
+    <app-loading *ngIf="isLoading"></app-loading>
+    <app-product-item *ngFor="let i of Product"
+        [prod]="i" (deleteProductItem)="handleDeleteProduct($event)"
+        (displayProductModal)="handleDisplayProductModal($event)">
+    </app-product-item>
 
-
-
-<div  class="product-list">
-  <app-loading *ngIf="isLoading"></app-loading>
-  <app-product-item
-  *ngFor="let i of Product" [prod]="i"
-  (deleteProductItem)="handleDeleteProduct($event)"
-  (displayProductModal)="handleDisplayProductModal($event)"
-  >
-
-  </app-product-item>
   <div class="bar" *ngIf="!isLoading &&  !Product.length">
-  désolé aucun article n'est diponible pour le moment
+       désolé aucun article n'est diponible pour le moment
   </div>
 
-  <app-modal-product
-  *ngIf="isDisplayModal && modalProduct"
-    [prod]="modalProduct"
-    (closeModal)="handlecloseM()"
-  >
-  </app-modal-product>
-
-
-
-
-
+    <app-modal-product *ngIf="isDisplayModal && modalProduct"
+        [prod]="modalProduct" (closeModal)="handlecloseM()">
+    </app-modal-product>
 </div>

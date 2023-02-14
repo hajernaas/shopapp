@@ -1,0 +1,26 @@
+<app-page-title
+  [title]=" current_categories?.name">
+</app-page-title>
+
+<div class="products-container flex content">
+  <div class="products-category ">
+    <ul class="unlisted">
+      <li *ngFor="let item of categories?.results">
+        <a href=""
+            [ngClass]="{'active':item.slug===current_categories?.slug}"
+            (click)="handleClick($event,item)">
+            {{item.name}}
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="products-list flex-1 flex wrap gap-10 jcc">
+    <app-product-list
+     [Product]="products" [isLoading]="isLoading">
+    </app-product-list>
+
+
+
+  </div>
+</div>

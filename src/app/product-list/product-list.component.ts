@@ -1,7 +1,8 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, Input, OnDestroy, OnInit } from '@angular/core';
 import { Product } from 'src/app/model/product';
 import { ProductService } from '../services/product.service';
 import { Observable , of , interval, Subscription} from 'rxjs';
+import { ResultRequest } from '../model/result-request';
 
 @Component({
   selector: 'app-product-list',
@@ -10,13 +11,15 @@ import { Observable , of , interval, Subscription} from 'rxjs';
 })
 export class ProductListComponent implements OnInit , OnDestroy {
 
-  title:string="my shop";
-  Product: Product[]=[];
-  isDisplayModal: boolean =false;
-  isLoading: boolean= true;
-  modalProduct:Product|undefined;
+ title:string="my shop";
+ @Input() Product: Product[]=[];
+ resultData: ResultRequest<Product> |undefined;
+ isDisplayModal: boolean =false;
+ @Input() isLoading: boolean= true;
+ modalProduct:Product|undefined;
   /* créer une varibale productSub pour sauvegader mon observable */
-  productSub:Subscription | undefined;
+  //productSub:Subscription | undefined;
+
   constructor(private productService:ProductService) { }
 
   ngOnInit(): void {
@@ -28,10 +31,16 @@ export class ProductListComponent implements OnInit , OnDestroy {
   .then((p:Product[])=>{this.Product=p})
   .catch( ()=>{this.Product=[]})*/
 /*fonction en cas d'observable*/
-  this.productSub=this.productService.getProducts()
+
+/*this.productSub=this.productService.getProducts()
   .subscribe({
-     next: (p:Product[])=>{
-      this.Product=p;
+    // next: (p:Product[])=>{
+      next: (resultData:ResultRequest<Product>)=>{
+        //console.log("fff",resultData)
+       if (resultData.isSuccess){
+        this.Product=resultData.results;
+       }
+
       this.isLoading=false;
       console.log("pppaaa")
       },
@@ -44,40 +53,32 @@ export class ProductListComponent implements OnInit , OnDestroy {
     }
     }  )
 
-
-
-
-  }
+*/
+}
 
   ngOnDestroy():void{
-    this.productSub?.unsubscribe ()
-
-      }
+    //this.productSub?.unsubscribe ()
+  }
 
 
 
   handleDeleteProduct(prod:Product){
     //console.log("haundleDeleteProduct", prod);
   this.Product=this.Product.filter(p=> p.id!==prod.id)
-
   }
 
   handleDisplayProductModal(prod:Product)
   {
-
+    console.log("hhhh");
        if (prod){
          this.isDisplayModal = true
          this.modalProduct = prod
-
-       }
+        }
   }
 
-  handlecloseM()
-  {
+  handlecloseM() {
     console.log("aaannnbbb")
     this.isDisplayModal = false
     this.modalProduct = undefined
   }
-
-
 }

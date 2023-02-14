@@ -1,0 +1,85 @@
+<app-page-title title="Contact US"></app-page-title>
+
+<div class="contact" >
+  <!--
+      <div *ngFor="let name of names">
+          <div *ngIf="name.length > 6">{{name}}</div>
+      </div>
+  -->
+
+
+  <div class="form-container-contact">
+      <form action=" " [formGroup]="contactForm" >
+        <div class="form-inline flex gap-10">
+          <input  class="flex-1" type="text"  placeholder="First Name"  [formControl]="firstnameForm"/>
+          <input  class="flex-1" type="email" placeholder="Email" name ="email" [formControl]="emailForm"  />
+        </div>
+         <!-- <div>{{emailForm.errors| json}}</div> -->
+
+        <div class="error" *ngIf="firstnameForm.dirty && !firstnameForm.valid">
+          <p *ngIf="firstnameForm.errors?.['required']">
+                First name is required
+          </p>
+          <p *ngIf="firstnameForm.hasError('minlength')">
+              First Name must be at least 3 characters
+          </p>
+        </div>
+
+        <div class="error" *ngIf="emailForm.dirty && !emailForm.valid ">
+          <p *ngIf="emailForm.errors?.['required']">
+                  Email is required
+          </p>
+          <p *ngIf="!emailForm.errors?.['required']">
+                  Email is not valid
+          </p>
+        </div>
+
+
+        <div class="form-inline flex gap-10">
+          <input  class="flex-1" type="tel" placeholder="phone" name ="phone"  [formControl]="phoneForm" >
+          <input   class="flex-1" type="text" placeholder="Subject" name ="subject"  [formControl]="subjectForm"/>
+        </div>
+
+
+         <div class="error" *ngIf="phoneForm.dirty && !phoneForm.valid">
+          <p *ngIf="phoneForm.errors?.['required']">
+              phone is required
+          </p>
+          <p *ngIf="phoneForm.hasError('pattern')">
+            Phone must be at in this format xx-xx-xx-xx-xx
+          </p>
+      </div>
+      <div class="error" *ngIf="subjectForm.dirty && !subjectForm.valid">
+              <p *ngIf="subjectForm.errors?.['required']">
+                subject is required
+              </p>
+              <p *ngIf="subjectForm.errors?.['minlength']">
+                Subject  must be at least 10 characters
+              </p>
+      </div>
+
+      <div class="form-textarea flex">
+        <textarea  class="flex-1" name="message"
+           rows="10" cols="30" placeholder="Message"
+           [formControl]="messageForm" >
+        </textarea>
+      </div>
+
+      <div class="error" *ngIf="messageForm.dirty && !messageForm.valid">
+        <p *ngIf="messageForm.errors?.['required']">
+            message is required
+        </p>
+        <p *ngIf="messageForm.errors?.['minlength']">
+            message must be at least 20 characters
+        </p>
+      </div>
+
+      <div class="form-button flex">
+        <button class="btn flex-1" (click)="SubmitContact()"
+          [disabled]="!this.contactForm.valid"> Send Message
+        </button>
+      </div>
+
+    </form>
+  </div>
+</div>

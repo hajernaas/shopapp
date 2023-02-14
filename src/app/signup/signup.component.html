@@ -8,22 +8,20 @@
     </div>
 
     <div class="names">
-    <strong>FirstName:</strong>{{firstName}}
-    <br>
+       <strong>FirstName:</strong>{{firstName}} <br>
     </div>
 
     <div class="tabUser">
-    <table class="tabU" >
+      <table class="tabU" >
         <tr><td colspan="3">name</td></tr>
-        <tr  class="flex aic" *ngFor="let user of listUser1 ;let i=index">
+        <tr class="flex aic" *ngFor="let user of listUser1 ;let i=index">
             <td> {{user}}</td>
-            <div class="button-action flex gap-10" >
-              <td><button class="btn_signup "  (click)="deleteUser(i)">delete</button></td>
-              <td><button class="btn_signup " (click)="updateUser(i)">Update</button></td>
-            </div>
+              <div class="button-action flex gap-10" >
+                <td><button class="btn_signup "  (click)="deleteUser(i)">delete</button></td>
+                <td><button class="btn_signup " (click)="updateUser(i)">Update</button></td>
+              </div>
         </tr>
-    </table>
+      </table>
     </div>
-
 </div>
 

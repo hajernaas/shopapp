@@ -1,0 +1,25 @@
+.not-found h2{
+  font-size: 3rem;
+  border:3px solid black;
+  width:250px ;
+  height:250px ;
+  border-radius:50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding:30px;
+
+}
+.not-found p{
+font-size: 1.4rem;
+font-weight: bold;
+}
+
+@media screen and(max-width:600px) {
+  .not-found h2{
+    width:200px;
+    height:200px;
+
+  }
+}
+

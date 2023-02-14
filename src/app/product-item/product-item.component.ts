@@ -6,9 +6,8 @@ import { Product } from '../model/product';
   templateUrl: './product-item.component.html',
   styleUrls: ['./product-item.component.css']
 })
+
 export class ProductItemComponent implements OnInit {
-
-
  @Input() prod:Product | undefined
  @Output() deleteProductItem: EventEmitter<Product> = new EventEmitter<Product>()
  @Output() displayProductModal: EventEmitter<Product> = new EventEmitter<Product>()
@@ -21,25 +20,24 @@ export class ProductItemComponent implements OnInit {
     console.log("ccccc");
   }
 
-  OnClickProduct(produc:Product | undefined){
+  OnClickProduct(produc:Product|undefined){
    console.log(produc);
   }
 
   DeleteProduct(p: Product | undefined){
- // console.log(p);
+    // console.log(p);
     //   this.deleteProductItem.emit(p);
   }
+
   AfficherProduct(p: Product| undefined){
       //console.log("aaaa");
     this.displayProductModal.emit(p);
-
   }
 
-Alldetails(p:Product|undefined)
-{
- console.log("identifiant",p?.id);
- this.displayDetailsProduct.emit(p);
- console.log("rrrr");
-}
+  Alldetails(p:Product|undefined) {
+    console.log("identifiant",p?.id);
+    this.displayDetailsProduct.emit(p);
+    console.log("rrrr");
+ }
 
 }

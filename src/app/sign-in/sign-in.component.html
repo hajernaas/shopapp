@@ -1,71 +1,48 @@
 <div class="sign-in">
-<div class="form-container">
-<form #f="ngForm" (ngSubmit)="handleSubmit(f)" >
-<h2>Inscription</h2>
-<p class="tc">Si vous avez un compte , cliquez ici pour vous <a routerLink="/connexion" >identifier</a></p>
-  <div class="form-inline flex gap-5 wrap"  >
-    <input  class="flex-1" type="text"
-     name="FirstName" placeholder="your firstName..."  required
-     ngModel
-    />
-         <!--
-           [(ngModel)]="user.firstname"
-         -->
-     <input class="flex-1" type="text"
-      name="LastName"    placeholder="your lastName..." required
-      ngModel
-    />
+  <div class="form-container">
+    <form #f="ngForm" (ngSubmit)="handleSubmit(f)" >
+      <h2>Inscription</h2>
+        <p class="tc">Si vous avez un compte , cliquez ici pour vous <a routerLink="/connexion" >identifier</a></p>
+          <div class="form-inline flex gap-5 wrap"  >
+             <input  class="flex-1" type="text"
+             name="FirstName" placeholder="your firstName..." required ngModel />
+             <!--[(ngModel)]="user.firstname"-->
+              <input class="flex-1" type="text" name="LastName"
+               placeholder="your lastName..." required ngModel/>
+              <!--[(ngModel)]="user.lastname"-->
+          </div>
 
-    <!--
-        [(ngModel)]="user.lastname"
-    -->
+          <div class="form-inline flex gap-5">
+             <input class="flex-1" type="email"
+             name="Email"placeholder="your Email please" required
+             pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}"
+             ngModel/>
+                 <!--[(ngModel)]="user.email"-->
+          </div>
+
+          <div class="form-inline flex">
+              <input  class="flex-1"type="password"
+              name="pass"placeholder="your password please..."  minlength="8" required
+              pattern="[0-9a-fA-F]{4,8}"
+              ngModel/>
+                 <!--[(ngModel)]="user.password"-->
+          </div>
+
+          <div class="form-inline flex">
+               <input class="flex-1" type="password"
+               name="passConfirm" placeholder="confirm password please..." minlength="8" required
+               pattern="[0-9a-fA-F]{4,8}"
+               ngModel />
+                 <!--[(ngModel)]="user.passwordConfirm"-->
+          </div>
+
+          <div class="btn-submit flex">
+             <button class="btn flex-1" type="submit" >S'inscrire</button>
+          </div>
+    </form>
+ <!--info sur l'utilisateur:{{user|json}}-->
+  <div class="alert-erreur" *ngIf="messageError">
+       {{messageError}}
+   </div>
   </div>
-
-  <div class="form-inline flex gap-5">
-      <input class="flex-1" type="email"
-      name="Email"placeholder="your Email please" required
-      pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}"
-     ngModel
-
-      />
-<!--
- [(ngModel)]="user.email"
--->
-
-  </div>
-  <div class="form-inline flex">
-      <input  class="flex-1"type="password"
-      name="pass"placeholder="your password please..."  minlength="8" required
-      pattern="[0-9a-fA-F]{4,8}"
-      ngModel
-      />
-
-      <!--
-         [(ngModel)]="user.password"
-      -->
-  </div>
-
-  <div class="form-inline flex">
-      <input class="flex-1" type="password"
-      name="passConfirm" placeholder="confirm password please..." minlength="8" required
-      pattern="[0-9a-fA-F]{4,8}"
-      ngModel
-      />
-      <!--
-           [(ngModel)]="user.passwordConfirm"
-      -->
-  </div>
-  <div class="btn-submit flex">
-    <button class="btn flex-1" type="submit" >S'inscrire</button>
-  </div>
-</form>
-<!--
-    info sur l'utilisateur:{{user|json}}
--->
-<div class="alert-erreur" *ngIf="messageError">
-  {{messageError}}
-</div>
-
-
-</div>
 </div>

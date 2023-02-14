@@ -4,6 +4,7 @@ import { Observable , of , interval} from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 
 import { environment } from 'src/environments/environment';
+import { ResultRequest } from '../model/result-request';
 
 
 @Injectable({
@@ -11,15 +12,15 @@ import { environment } from 'src/environments/environment';
 })
 export class ProductService {
 private products:Product[]=[];
-private UrlApi:string=environment.serveurUrl;
+private UrlApi:string=environment.serveurUrl.products;
 
   constructor(private http:HttpClient) {
 
    }
 
-   getProducts(): Observable<Product[]> {
+   getProducts(): Observable<ResultRequest<Product>> {
       console.log("aaaazzzz");
-      return  this.http.get<Product[]>(this.UrlApi)
+      return  (this.http.get<ResultRequest<Product>>(this.UrlApi))
    }
 
 

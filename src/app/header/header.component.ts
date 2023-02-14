@@ -17,6 +17,7 @@ secondSub:Subscription |undefined
 siteName:string=environment.siteName;
 nav:NavBar[]=nav_items;
 auth_data:NavBar[]=auth_items;
+isDisplayMobileMenu:boolean =false ;
 
 constructor(private productService:ProductService) { }
 
@@ -25,36 +26,37 @@ constructor(private productService:ProductService) { }
     .subscribe((value)=>{this.data=value})
     this.productService.getSecond()
     .subscribe((value)=>{this.second=value})*/
-console.log(this.nav);
-console.log(this.auth_data);
+   console.log(this.nav);
+   console.log(this.auth_data);
 
     this.secondSub=this.productService.getSecond()
-    .subscribe({
-       next: (value:Number)=>{
-         this.second = value;
+      .subscribe({
+        next: (value:Number)=>{
+          this.second = value;
         },
-       error: (error:any)=>{
-        console.log(error);
-      },
-       complete:()=>{
-        console.log("complete");
-      }
-      }  )
-
+        error: (error:any)=>{
+          console.log(error);
+        },
+        complete:()=>{
+          console.log("complete");
+        }
+      })
   }
+
   auth_items(auth_items: any) {
     throw new Error('Method not implemented.');
   }
 
   ngOnDestroy():void{
-this.secondSub?.unsubscribe ()
-
+    this.secondSub?.unsubscribe ();
   }
 
+  handleDisplayMobileMenu(){
+    this.isDisplayMobileMenu=!this.isDisplayMobileMenu;
+  }
 
-
-
-
-
+  handleCloseMobileMenu(){
+    this.isDisplayMobileMenu=false;
+  }
 
 }

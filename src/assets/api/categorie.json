@@ -1,0 +1,75 @@
+
+
+{
+  "isSuccess":true,
+  "statusCode":200,
+  "length":8,
+  "results":[
+  {
+     "id":"23589965",
+      "name":"cullotes",
+      "created_at":"10/09/2009",
+      "update_at":"04/08/2010",
+      "slug":"culottes",
+      "authors" :"Hnaas"
+  },
+  {
+    "id":"23585",
+    "name":"jupes",
+    "created_at":"14/05/2006",
+    "update_at":"06/02/2010",
+    "slug":"jupes",
+    "authors" :"Hnaas"
+  },
+
+  {
+    "id":"2385",
+    "name":"robes",
+    "created_at":"01/05/2004",
+    "update_at":"06/05/2012",
+    "slug":"robes",
+    "authors" :"Hnaas"
+  },
+
+  {
+    "id":"238115",
+    "name":"pantalons",
+    "created_at":"04/05/2003",
+    "update_at":"23/05/2019",
+    "slug":"pantalons",
+    "authors" :"Hnaas"
+  },
+  {
+    "id":"266115",
+    "name":"pulls",
+    "created_at":"03/08/2007",
+    "update_at":"25/12/2010",
+    "slug":"pulls",
+    "authors" :"Hnaas"
+  },
+  {
+    "id":"208115",
+    "name":"shorts",
+    "created_at":"26/07/2013",
+    "update_at":"25/12/2017",
+    "slug":"short",
+    "authors" :"Hnaas"
+  },
+  {
+    "id":"20815",
+    "name":"t-shirt",
+    "created_at":"31/09/2012",
+    "update_at":"15/01/2014",
+    "slug":"t-shirt",
+    "authors" :"Hnaas"
+  }
+
+  ]
+
+
+
+
+}
+
+
+

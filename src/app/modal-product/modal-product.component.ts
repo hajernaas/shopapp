@@ -7,17 +7,17 @@ import { Product } from '../model/product';
   templateUrl: './modal-product.component.html',
   styleUrls: ['./modal-product.component.css']
 })
+
 export class ModalProductComponent implements OnInit {
-@Input() prod:Product | undefined
-@Output() closeModal: EventEmitter<string>=new EventEmitter<string>();
+  @Input() prod:Product | undefined
+  @Output() closeModal: EventEmitter<string>=new EventEmitter<string>();
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-closeM()
-  {
+  closeM(){
     console.log("ccccccc")
     this.closeModal.emit();
   }

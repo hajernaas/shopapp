@@ -1,0 +1,20 @@
+.sliderItem
+{
+  height:400px;
+  background-color: #3f51b5;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 10px;
+}
+.sliderItem img{
+  background-color: white;
+  padding:10px;
+  border-radius:5px;
+
+
+
+
+}
+
+

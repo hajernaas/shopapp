@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { User } from '../model/user';
+import { Router } from  '@angular/router';
 
 @Component({
   selector: 'app-connexion',
@@ -12,6 +13,7 @@ user:User={
   email: '',
   password: ''
 }
+
 connexionForm:FormGroup;
 email:FormControl;
 password:FormControl;
@@ -29,9 +31,7 @@ password:FormControl;
   ngOnInit(): void {
   }
 
-  handleSubmit()
-  {
-    console.log("ccccc");
+  handleSubmit(){
     console.log(this.connexionForm.valid);
   }
 

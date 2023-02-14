@@ -1,34 +1,34 @@
 <header>
-  <div class="navbar none">
-    <a routerLink="">
-    <img src="/assets/images/icon/bars.png" alt=""> </a>
+  <div class="navbar none" (click)="handleDisplayMobileMenu()"
+     (mouseover)="handleDisplayMobileMenu()" >
+     <img src="/assets/images/icon/bars.png" alt="">
   </div>
+
   <div class="shop">
     <a routerLink="">{{siteName}} </a>
   </div>
+
   <div class="menu">
     <ul>
-      <li *ngFor="let item of nav "><a [routerLink]="item?.path">{{item?.name}}</a></li>
-      <li *ngFor="let item of auth_data "><a [routerLink]="item?.path" class="btn_header">{{item?.name}}</a></li>
+      <li *ngFor="let item of nav ">
+        <a [routerLink]="item?.path">{{item?.name}}</a>
+      </li>
+      <li *ngFor="let item of auth_data ">
+        <a [routerLink]="item?.path" class="btn_header"> {{item?.name}}</a>
+      </li>
     </ul>
       <!--
-        <li><a href="#">{{second}}</a></li>
-        <li><a routerLink="">Home</a></li>
+      <li><a href="#">{{second}}</a></li>
+      <li><a routerLink="">Home</a></li>
       <li> <a routerLink="">PRODUCT</a></li>
       <li> <a routerLink="">blog</a></li>
       <li><a routerLink="signup" class="btn_header">Sign Up</a></li>
       <li><a routerLink="connexion" class="btn_header">sign In</a></li>
-    -->
-
-
-
-
-
-
-
-
-
-
+      -->
   </div>
 </header>
-<app-aside></app-aside>
+
+<app-aside
+      (close)="handleCloseMobileMenu()"
+      *ngIf="isDisplayMobileMenu">
+</app-aside>

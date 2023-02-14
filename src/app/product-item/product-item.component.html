@@ -1,20 +1,20 @@
 <!-- <div class="product-item" (click)="DeleteProduct(prod)">  -->
 
 
+    <div class="product-item" >
+                                                                                                                                         <div class="product-item">
+      <div class="productimage" [routerLink]="['/product',prod?.id]">
+         <img [src]="prod ? prod.imgURL[0] : '' "  [alt] ="prod?.name" >
+      </div>
 
-
-    <div class="product-item" >                                                                                                                                      <div class="product-item">
-      <div class="productimage" [routerLink]="['product',prod?.id]">
-       <img [src]="prod ? prod.imgURL[0] : '' "  [alt] ="prod?.name" >
-     </div>
-     <div class="productdesc">
-         <div class="productname">
-           <h3>{{prod?.name?.substring(0,50)}} {{ prod && prod.name[51] ? "...": null}}</h3>
-         </div>
-          <div class="productprice">
-           <h4> ${{(prod?.new_prix || 0)/100}}</h4>
-           <del> <h4>$ {{(prod?.old_prix || 0)/100}}</h4></del>
-          </div>
+      <div class="productdesc">
+        <div class="productname">
+            <h3>{{prod?.name?.substring(0,50)}} {{ prod && prod.name[51] ? "...": null}}</h3>
+        </div>
+        <div class="productprice">
+             <h4> ${{(prod?.new_prix || 0)/100}}</h4>
+             <del> <h4>$ {{(prod?.old_prix || 0)/100}}</h4></del>
+        </div>
 <!--
  <div  class="flex gap-10 jcc">
             <button class=" btn flex-1" (click)="AfficherProduct(prod)"> Quick view </button>

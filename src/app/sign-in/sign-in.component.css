@@ -35,13 +35,13 @@
 
 form .form-inline
 {
-  min-height: 20px;
+  min-height: 30px;
   padding:3px;
 }
 
 form .form-inline input{
 font-size :1.4rem;
-height: 30px;
+height: 35px;
 }
 
  .btn-submit .btn{

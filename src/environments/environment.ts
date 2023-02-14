@@ -4,10 +4,16 @@
 
 export const environment = {
   production: false,
-  serveurUrl:"http://shopappangular.com/assets/api/products.json",
+  baseUrl:'http://localhost:8000',
+  serveurUrl:
+  {
+    products:"http://shopappangular.com/assets/api/products.json",
+    categorie: "http://shopappangular.com/assets/api/categorie.json"
+  },
+
   siteName:"shop app",
-  siteEmail:"contact@umeday.com",
-  serveurUrl_user:"http://shopappangular.com/assets/api/users.json",
+  siteEmail: "contact@umeday.com",
+  serveurUrl_user: "http://shopappangular.com/assets/api/users.json",
 };
 
 /*

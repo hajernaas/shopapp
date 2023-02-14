@@ -3,4 +3,5 @@ export const environment = {
   serveurUrl:"https://shopappangular.com/assets/api/products",
   siteName:"new app",
   siteEmail:"contact@gmail.com",
+  baseUrl:'http://localhost:8000',
 };

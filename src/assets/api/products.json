@@ -1,521 +1,1953 @@
-[
-{
-  "id":"123",
-  "name":"Robe à imprimé floral à noeud découpé",
-  "desc":"fdsfds",
-  "category": ["robe1","femme"],
-  "imgURL": ["/assets/images/products/robe1/1.webp",
-  "/assets/images/products/robe1/2.webp",
-  "/assets/images/products/robe1/3.webp",
-  "/assets/images/products/robe1/4.webp"
-],
-  "new_prix":2400,
-  "old_prix": 3000,
-  "created_date":"12/05/2023",
-  "stock":"54488",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
-
-},
-
-
-
 
 {
-  "id":"345",
-  "name":"Robe portefeuille à volants fleuri ",
-  "desc":"fdqfjlkssfjks",
-  "category": ["robe2","femme"],
-  "imgURL":
-  ["/assets/images/products/robe2/1.webp",
-  "/assets/images/products/robe2/2.webp",
-  "/assets/images/products/robe2/3.webp"
-],
-  "new_prix":1556,
-  "old_prix": 2056,
-  "created_date":"09/10/2022",
-  "stock":"55678",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+    "isSuccess":true,
+    "statusCode":200,
+    "length":140,
 
-},
+    "results":[
+    {
+    "id": "123",
+    "name": "Robe à imprimé floral à noeud découpé",
+    "desc": "fdsfds",
+    "categories": [
+      {  "id":"5567",
+         "name":"robes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"534457",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe1/1.webp",
+      "/assets/images/products/robes/robe1/2.webp",
+      "/assets/images/products/robes/robe1/3.webp",
+      "/assets/images/products/robes/robe1/4.webp"
+    ],
+    "new_prix": 2400,
+    "old_prix": 3000,
+    "created_date": "12/05/2023",
+    "stock": "54488",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "345",
+    "name": "Robe portefeuille à volants fleuri ",
+    "desc": "fdqfjlkssfjks",
+    "categories": [
+      {  "id":"56687",
+         "name":"robes",
+         "created_date":"09/04/2000",
+         "update_date":"10/07/2001",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"5457",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"06/10/2019",
+         "update_date":"15/07/2020",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe2/1.webp",
+      "/assets/images/products/robes/robe2/2.webp",
+      "/assets/images/products/robes/robe2/3.webp"
+    ],
+    "new_prix": 1556,
+    "old_prix": 2056,
+    "created_date": "09/10/2022",
+    "stock": "55678",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "4556",
+    "name": "Robe fondue à fines brides avec boutons",
+    "desc": "fdsfds",
+    "categories": [
+      {  "id":"537",
+         "name":"robes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"53117",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"10/10/2011",
+         "update_date":"13/04/2017",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe3/1.webp",
+      "/assets/images/products/robes/robe3/2.webp",
+      "/assets/images/products/robes/robe3/3.webp"
+    ],
+    "new_prix": 2370,
+    "old_prix": 3456,
+    "created_date": "12/05/2023",
+    "stock": "543458",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "46",
+    "name": "Robe fondue à fines brides avec boutons",
+    "desc": "fdsfds",
+    "categories": [
+      {  "id":"123456",
+         "name":"robes",
+         "created_date":"04/03/2015",
+         "update_date":"11/07/2016",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"57337",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"07/12/2013",
+         "update_date":"10/07/2015",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe2/1.webp",
+      "/assets/images/products/robes/robe2/2.webp",
+      "/assets/images/products/robes/robe2/3.webp"
+    ],
+    "new_prix": 4570,
+    "old_prix": 8756,
+    "created_date": "12/05/2023",
+    "stock": "54438",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "47666",
+    "name": "Robe à imprimé floral à noeud découpé",
+    "desc": "fdsfds",
+    "categories": [
+      {  "id":"45667",
+         "name":"robes",
+         "created_date":"03/02/2012",
+         "update_date":"10/07/2014",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"127857",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe2/1.webp",
+      "/assets/images/products/robes/robe2/2.webp",
+      "/assets/images/products/robes/robe2/3.webp"
+    ],
+    "new_prix": 4570,
+    "old_prix": 8756,
+    "created_date": "12/05/2023",
+    "stock": "54668",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "4976",
+    "name": "Robe à imprimé floral à noeud découpé",
+    "desc": "fdsfds",
+    "categories": [
+      {  "id":"13447",
+         "name":"robes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"2237",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe2/1.webp",
+      "/assets/images/products/robes/robe2/2.webp",
+      "/assets/images/products/robes/robe2/3.webp"
+    ],
+    "new_prix": 4570,
+    "old_prix": 8756,
+    "created_date": "12/05/2023",
+    "stock": "566588",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "43467",
+    "name": "Robe à imprimé floral à noeud découpé",
+    "desc": "fdsfds",
+    "categories": [
+      {  "id":"52344",
+         "name":"robes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"52247",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe2/1.webp",
+      "/assets/images/products/robes/robe2/2.webp",
+      "/assets/images/products/robes/robe2/3.webp"
+    ],
+    "new_prix": 4570,
+    "old_prix": 8756,
+    "created_date": "12/05/2023",
+    "stock": "543223",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "23445",
+    "name": "Robe portefeuille à volants fleuri",
+    "desc": "fdsfds",
+    "categories": [
+      {  "id":"5447",
+         "name":"robes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"3468",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe2/1.webp",
+      "/assets/images/products/robes/robe2/2.webp",
+      "/assets/images/products/robes/robe2/3.webp"
+    ],
+    "new_prix": 4570,
+    "old_prix": 8756,
+    "created_date": "12/05/2023",
+    "stock": "544338",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "22345",
+    "name": "Robe portefeuille à volants fleuri",
+    "desc": "fdsfds",
+    "categories": [
+      {  "id":"44566",
+         "name":"robes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"96655",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe2/1.webp",
+      "/assets/images/products/robes/robe2/2.webp",
+      "/assets/images/products/robes/robe2/3.webp"
+    ],
+    "new_prix": 4570,
+    "old_prix": 8756,
+    "created_date": "12/05/2023",
+    "stock": "54338",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "235445",
+    "name": "Robe portefeuille à volants fleuri",
+    "desc": "fdsfds",
+    "categories": [
+      {  "id":"2222",
+         "name":"robes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"1111",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe2/1.webp",
+      "/assets/images/products/robes/robe2/2.webp",
+      "/assets/images/products/robes/robe2/3.webp"
+    ],
+    "new_prix": 4570,
+    "old_prix": 8756,
+    "created_date": "12/05/2023",
+    "stock": "54338",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "2385",
+    "name": "Robe portefeuille à volants fleuri",
+    "desc": "fdsfds",
+    "categories": [
+      {  "id":"557",
+         "name":"robes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"5344",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe2/1.webp",
+      "/assets/images/products/robes/robe2/2.webp",
+      "/assets/images/products/robes/robe2/3.webp"
+    ],
+    "new_prix": 4570,
+    "old_prix": 8756,
+    "created_date": "12/05/2023",
+    "stock": "52388",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "4645",
+    "name": "Robe portefeuille à volants fleuri",
+    "desc": "fdsfds",
+    "categories": [
+      {  "id":"896767",
+         "name":"robes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"34567",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe2/1.webp",
+      "/assets/images/products/robes/robe2/2.webp",
+      "/assets/images/products/robes/robe2/3.webp"
+    ],
+    "new_prix": 4570,
+    "old_prix": 8756,
+    "created_date": "12/05/2023",
+    "stock": "54378",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "123",
+    "name": "Robe à imprimé floral à noeud découpé",
+    "desc": "fdsfds",
+    "categories": [
+      {  "id":"7655",
+         "name":"robes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"11257",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe1/1.webp",
+      "/assets/images/products/robes/robe1/2.webp",
+      "/assets/images/products/robes/robe1/3.webp"
+    ],
+    "new_prix": 4670,
+    "old_prix": 6056,
+    "created_date": "12/05/2023",
+    "stock": "58888",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "345",
+    "name": "Robe portefeuille à volants fleuri ",
+    "desc": "fdqfjlkssfjks",
+    "categories": [
+      {  "id":"1227",
+         "name":"robes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"53345454",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe2/1.webp",
+      "/assets/images/products/robes/robe2/2.webp",
+      "/assets/images/products/robes/robe2/3.webp"
+    ],
+    "new_prix": 1556,
+    "old_prix": 2056,
+    "created_date": "09/10/2022",
+    "stock": "543é8",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "4556",
+    "name": "Robe fondue à fines brides avec boutons",
+    "desc": "fdsfds",
+    "categories": [
+      {  "id":"3145",
+         "name":"robes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"55566",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe3/1.webp",
+      "/assets/images/products/robes/robe3/2.webp",
+      "/assets/images/products/robes/robe3/3.webp"
+    ],
+    "new_prix": 2370,
+    "old_prix": 3456,
+    "created_date": "12/05/2023",
+    "stock": "544666",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "123",
+    "name": "Robe à imprimé floral à noeud découpé",
+    "desc": "fdsfds",
+    "categories": [
+      {  "id":"755488",
+         "name":"robes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"366766",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe1/1.webp",
+      "/assets/images/products/robes/robe1/2.webp",
+      "/assets/images/products/robes/robe1/3.webp"
+    ],
+    "new_prix": 4670,
+    "old_prix": 6056,
+    "created_date": "12/05/2023",
+    "stock": "57888",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "345",
+    "name": "Robe portefeuille à volants fleuri ",
+    "desc": "fdqfjlkssfjks",
+    "categories": [
+      {  "id":"23434",
+         "name":"robes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"5454",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe2/1.webp",
+      "/assets/images/products/robes/robe2/2.webp",
+      "/assets/images/products/robes/robe2/3.webp"
+    ],
+    "new_prix": 1556,
+    "old_prix": 2056,
+    "created_date": "09/10/2022",
+    "stock": "54458",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "4556",
+    "name": "Robe fondue à fines brides avec boutons",
+    "desc": "fdsfds",
+    "categories": [
+      {  "id":"35435536",
+         "name":"robes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"54567",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe3/1.webp",
+      "/assets/images/products/robes/robe3/2.webp",
+      "/assets/images/products/robes/robe3/3.webp"
+    ],
+    "new_prix": 2370,
+    "old_prix": 3456,
+    "created_date": "12/05/2023",
+    "stock": "545558",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "123",
+    "name": "Robe à imprimé floral à noeud découpé",
+    "desc": "fdsfds",
+    "categories": [
+      {  "id":"3333",
+         "name":"robes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"66666",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe1/1.webp",
+      "/assets/images/products/robes/robe1/2.webp",
+      "/assets/images/products/robes/robe1/3.webp"
+    ],
+    "new_prix": 4670,
+    "old_prix": 6056,
+    "created_date": "12/05/2023",
+    "stock": "5488988",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "345",
+    "name": "Robe portefeuille à volants fleuri ",
+    "desc": "fdqfjlkssfjks",
+    "categories": [
+      {  "id":"5567434",
+         "name":"robes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"54343",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe2/1.webp",
+      "/assets/images/products/robes/robe2/2.webp",
+      "/assets/images/products/robes/robe2/3.webp"
+    ],
+    "new_prix": 1556,
+    "old_prix": 2056,
+    "created_date": "09/10/2022",
+    "stock": "554588",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "4556",
+    "name": "Robe fondue à fines brides avec boutons",
+    "desc": "fdsfds",
+    "categories": [
+      {  "id":"657657",
+         "name":"robes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"54547676",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe3/1.webp",
+      "/assets/images/products/robes/robe3/2.webp",
+      "/assets/images/products/robes/robe3/3.webp"
+    ],
+    "new_prix": 2370,
+    "old_prix": 3456,
+    "created_date": "12/05/2023",
+    "stock": "5777788",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "123",
+    "name": "Robe à imprimé floral à noeud découpé",
+    "desc": "fdsfds",
+    "categories": [
+      {  "id":"345667776",
+         "name":"robes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"68789889",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe1/1.webp",
+      "/assets/images/products/robes/robe1/2.webp",
+      "/assets/images/products/robes/robe1/3.webp"
+    ],
+    "new_prix": 4670,
+    "old_prix": 6056,
+    "created_date": "12/05/2023",
+    "stock": "548",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "345",
+    "name": "Robe portefeuille à volants fleuri ",
+    "desc": "fdqfjlkssfjks",
+    "categories": [
+      {  "id":"4345567",
+         "name":"robes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"334677",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe2/1.webp",
+      "/assets/images/products/robes/robe2/2.webp",
+      "/assets/images/products/robes/robe2/3.webp"
+    ],
+    "new_prix": 1556,
+    "old_prix": 2056,
+    "created_date": "09/10/2022",
+    "stock": "566688",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "345",
+    "name": "Robe portefeuille à volants fleuri ",
+    "desc": "fdqfjlkssfjks",
+    "categories": [
+      {  "id":"75667767",
+         "name":"robes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "slug":"robes",
+         "author":"HNaas"
+      },
+      {
+         "id":"4343443",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/robes/robe2/1.webp",
+      "/assets/images/products/robes/robe2/2.webp",
+      "/assets/images/products/robes/robe2/3.webp"
+    ],
+    "new_prix": 1556,
+    "old_prix": 2056,
+    "created_date": "09/10/2022",
+    "stock": "546688",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
 
-{
-  "id":"4556",
-  "name":"Robe fondue à fines brides avec boutons",
-  "desc":"fdsfds",
-  "category": ["robe1","femme"],
-  "imgURL": ["/assets/images/products/robe3/1.webp",
-  "/assets/images/products/robe3/2.webp",
-  "/assets/images/products/robe3/3.webp"
-],
-  "new_prix":2370,
-  "old_prix": 3456,
-  "created_date":"12/05/2023",
-  "stock":"543458",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
 
-},
+  {
+    "id": "2235",
+    "name": "pantalon à imprimé floral à noeud découpé",
+    "desc": "fddqsfdss",
+    "categories": [
+      {  "id":"5541",
+         "name":"pantalons",
+         "created_date":"04/10/2021",
+         "update_date":"11/08/2022",
+         "slug":"pantalons",
+         "author":"HNaas"
+      },
+      {
+         "id":"1231233",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"09/10/2021",
+         "update_date":"10/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/pantalon/pantalon1.webp",
+      "/assets/images/products/pantalon/pantalon1.1.webp",
+      "/assets/images/products/pantalon/pantalon1.2.webp",
+      "/assets/images/products/pantalon/pantalon1.3.webp"
+    ],
+    "new_prix": 1400,
+    "old_prix": 3300,
+    "created_date": "12/05/2023",
+    "stock": "538",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
 
-{
-  "id":"46",
-  "name":"Robe fondue à fines brides avec boutons",
-  "desc":"fdsfds",
-  "category": ["robe1","femme"],
-  "imgURL": ["/assets/images/products/robe2/1.webp",
-  "/assets/images/products/robe2/2.webp",
-  "/assets/images/products/robe2/3.webp"
-],
-  "new_prix":4570,
-  "old_prix": 8756,
-  "created_date":"12/05/2023",
-  "stock":"54438",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
-
-},
-
-
-{
-  "id":"47666",
-  "name":"Robe à imprimé floral à noeud découpé",
-  "desc":"fdsfds",
-  "category": ["robe1","femme"],
-  "imgURL": ["/assets/images/products/robe2/1.webp",
-  "/assets/images/products/robe2/2.webp",
-  "/assets/images/products/robe2/3.webp"
-],
-
-  "new_prix":4570,
-  "old_prix": 8756,
-  "created_date":"12/05/2023",
-  "stock":"54668",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
-
-
-
-},
-
-{
-  "id":"4976",
-  "name":"Robe à imprimé floral à noeud découpé",
-  "desc":"fdsfds",
-  "category": ["robe1","femme"],
-  "imgURL": ["/assets/images/products/robe2/1.webp",
-  "/assets/images/products/robe2/2.webp",
-  "/assets/images/products/robe2/3.webp"
-],
-  "new_prix":4570,
-  "old_prix": 8756,
-  "created_date":"12/05/2023",
-  "stock":"566588",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
-
-},
-{
-  "id":"43467",
-  "name":"Robe à imprimé floral à noeud découpé",
-  "desc":"fdsfds",
-  "category": ["robe1","femme"],
-  "imgURL": ["/assets/images/products/robe2/1.webp",
-  "/assets/images/products/robe2/2.webp",
-  "/assets/images/products/robe2/3.webp"
-],
-  "new_prix":4570,
-  "old_prix": 8756,
-  "created_date":"12/05/2023",
-
-  "stock":"543223",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
-
-},
-
-{
-  "id":"23445",
-  "name":"Robe portefeuille à volants fleuri",
-  "desc":"fdsfds",
-  "category": ["robe1","femme"],
-  "imgURL": ["/assets/images/products/robe2/1.webp",
-  "/assets/images/products/robe2/2.webp",
-  "/assets/images/products/robe2/3.webp"
-],
-  "new_prix":4570,
-  "old_prix": 8756,
-  "created_date":"12/05/2023",
-  "stock":"544338",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  {
+    "id": "456672",
+    "name": "pantalon à noeud découpé",
+    "desc": "fddqsfsdllsd",
+    "categories": [
+      {  "id":"51",
+         "name":"pantalons",
+         "created_date":"04/10/2021",
+         "update_date":"12/05/2022",
+         "slug":"pantalons",
+         "author":"HNaas"
+      },
+      {
+         "id":"166544",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"10/10/2021",
+         "update_date":"18/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/pantalon/pantalon2.webp",
+      "/assets/images/products/pantalon/pantalon2.1.webp",
+      "/assets/images/products/pantalon/pantalon2.1.webp",
+      "/assets/images/products/pantalon/pantalon2.3.webp"
+    ],
+    "new_prix": 1000,
+    "old_prix": 2400,
+    "created_date": "12/05/2023",
+    "stock": "1338",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
 
 
 
-},
 
 
-{
-  "id":"22345",
-  "name":"Robe portefeuille à volants fleuri",
-  "desc":"fdsfds",
-  "category": ["robe1","femme"],
-  "imgURL": ["/assets/images/products/robe2/1.webp",
-  "/assets/images/products/robe2/2.webp",
-  "/assets/images/products/robe2/3.webp"
-],
-  "new_prix":4570,
-  "old_prix": 8756,
-  "created_date":"12/05/2023",
 
-  "stock":"54338",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  {
+    "id": "422222",
+    "name": "pantalon à noeud découpé",
+    "desc": "fddqsfsdldsdslsd",
+    "categories": [
+      {  "id":"45",
+         "name":"pantalons",
+         "created_date":"04/10/2021",
+         "update_date":"12/05/2022",
+         "slug":"pantalons",
+         "author":"HNaas"
+      },
+      {
+         "id":"164589",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"10/10/2021",
+         "update_date":"18/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/pantalon/pantalon1.webp",
+      "/assets/images/products/pantalon/pantalon1.1.webp",
+      "/assets/images/products/pantalon/pantalon1.2.webp",
+      "/assets/images/products/pantalon/pantalon1.3.webp"
+    ],
+    "new_prix": 1500,
+    "old_prix": 2000,
+    "created_date": "12/05/2023",
+    "stock": "12311",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
 
-},
-{
-  "id":"235445",
-  "name":"Robe portefeuille à volants fleuri",
-  "desc":"fdsfds",
-  "category": ["robe1","femme"],
-  "imgURL": ["/assets/images/products/robe2/1.webp",
-  "/assets/images/products/robe2/2.webp",
-  "/assets/images/products/robe2/3.webp"
-],
-  "new_prix":4570,
-  "old_prix": 8756,
-  "created_date":"12/05/2023",
-  "stock":"54338",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  {
+    "id": "42212",
+    "name": "jupe à noeud découpé",
+    "desc": "fddqsfdsfdlsd",
+    "categories": [
+      {  "id":"237878",
+         "name":"jupes",
+         "created_date":"04/10/2021",
+         "update_date":"12/05/2022",
+         "slug":"jupes",
+         "author":"HNaas"
+      },
+      {
+         "id":"1099",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"11/11/2021",
+         "update_date":"23/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/jupes/jupe1.webp",
+      "/assets/images/products/jupes/jupe1.1.webp",
+      "/assets/images/products/jupes/jupe1.2.webp",
+      "/assets/images/products/jupes/jupe1.3.webp"
+    ],
+    "new_prix": 2500,
+    "old_prix": 4000,
+    "created_date": "12/05/2023",
+    "stock": "134357",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
 
-},
+  {
+    "id": "42222272",
+    "name": "jupe à noeud découpé",
+    "desc": "fddqsfdsfdlsd",
+    "categories": [
+      {  "id":"23",
+         "name":"jupes",
+         "created_date":"04/10/2021",
+         "update_date":"12/05/2022",
+         "slug":"jupes",
+         "author":"HNaas"
+      },
+      {
+         "id":"1440",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"11/11/2021",
+         "update_date":"23/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/jupes/jupe2.webp",
+      "/assets/images/products/jupes/jupe2.1.webp",
+      "/assets/images/products/jupes/jupe2.2.webp",
+      "/assets/images/products/jupes/jupe2.3.webp"
+    ],
+    "new_prix": 4999,
+    "old_prix": 7999,
+    "created_date": "12/05/2023",
+    "stock": "184357",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
 
-{
-  "id":"2385",
-  "name":"Robe portefeuille à volants fleuri",
-  "desc":"fdsfds",
-  "category": ["robe1","femme"],
-  "imgURL": ["/assets/images/products/robe2/1.webp",
-  "/assets/images/products/robe2/2.webp",
-  "/assets/images/products/robe2/3.webp"
-],
-  "new_prix":4570,
-  "old_prix": 8756,
-  "created_date":"12/05/2023",
-  "stock":"52388",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
-
-},
-{
-  "id":"4645",
-  "name":"Robe portefeuille à volants fleuri",
-  "desc":"fdsfds",
-  "category": ["robe1","femme"],
-  "imgURL": ["/assets/images/products/robe2/1.webp",
-  "/assets/images/products/robe2/2.webp",
-  "/assets/images/products/robe2/3.webp"
-],
-  "new_prix":4570,
-  "old_prix": 8756,
-  "created_date":"12/05/2023",
-  "stock":"54378",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
-
-},
-{
-  "id":"123",
-  "name":"Robe à imprimé floral à noeud découpé",
-  "desc":"fdsfds",
-  "category": ["robe1","femme"],
-  "imgURL": ["/assets/images/products/robe1/1.webp",
-  "/assets/images/products/robe1/2.webp",
-  "/assets/images/products/robe1/3.webp"
-],
-  "new_prix":4670,
-  "old_prix": 6056,
-  "created_date":"12/05/2023",
-  "stock":"58888",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
-
-},
-{
-  "id":"345",
-  "name":"Robe portefeuille à volants fleuri ",
-  "desc":"fdqfjlkssfjks",
-  "category": ["robe2","femme"],
-  "imgURL":
-  ["/assets/images/products/robe2/1.webp",
-  "/assets/images/products/robe2/2.webp",
-  "/assets/images/products/robe2/3.webp"
-],
-  "new_prix":1556,
-  "old_prix": 2056,
-  "created_date":"09/10/2022",
-  "stock":"543é8",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
-
-},
-
-{
-  "id":"4556",
-  "name":"Robe fondue à fines brides avec boutons",
-  "desc":"fdsfds",
-  "category": ["robe1","femme"],
-  "imgURL": ["/assets/images/products/robe3/1.webp",
-  "/assets/images/products/robe3/2.webp",
-  "/assets/images/products/robe3/3.webp"
-],
-  "new_prix":2370,
-  "old_prix": 3456,
-  "created_date":"12/05/2023",
-  "stock":"544666",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
-
-},
-{
-  "id":"123",
-  "name":"Robe à imprimé floral à noeud découpé",
-  "desc":"fdsfds",
-  "category": ["robe1","femme"],
-  "imgURL": ["/assets/images/products/robe1/1.webp",
-  "/assets/images/products/robe1/2.webp",
-  "/assets/images/products/robe1/3.webp"
-],
-  "new_prix":4670,
-  "old_prix": 6056,
-  "created_date":"12/05/2023",
-  "stock":"57888",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
-
-},
-{
-  "id":"345",
-  "name":"Robe portefeuille à volants fleuri ",
-  "desc":"fdqfjlkssfjks",
-  "category": ["robe2","femme"],
-  "imgURL":
-  ["/assets/images/products/robe2/1.webp",
-  "/assets/images/products/robe2/2.webp",
-  "/assets/images/products/robe2/3.webp"
-],
-  "new_prix":1556,
-  "old_prix": 2056,
-  "created_date":"09/10/2022",
-  "stock":"54458",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
-
-},
-
-{
-  "id":"4556",
-  "name":"Robe fondue à fines brides avec boutons",
-  "desc":"fdsfds",
-  "category": ["robe1","femme"],
-  "imgURL": ["/assets/images/products/robe3/1.webp",
-  "/assets/images/products/robe3/2.webp",
-  "/assets/images/products/robe3/3.webp"
-],
-  "new_prix":2370,
-  "old_prix": 3456,
-  "created_date":"12/05/2023",
-  "stock":"545558",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
-
-},
+  {
+    "id": "42226672",
+    "name": "jupe à noeud découpé",
+    "desc": "fddqsfdsfdlsd",
+    "categories": [
+      {  "id":"37",
+         "name":"jupes",
+         "created_date":"04/10/2021",
+         "update_date":"12/05/2022",
+         "slug":"jupes",
+         "author":"HNaas"
+      },
+      {
+         "id":"1430",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"11/11/2021",
+         "update_date":"23/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/jupes/jupe1.webp",
+      "/assets/images/products/jupes/jupe1.2.webp",
+      "/assets/images/products/jupes/jupe1.1.webp",
+      "/assets/images/products/jupes/jupe1.3.webp"
+    ],
+    "new_prix": 4999,
+    "old_prix": 7999,
+    "created_date": "12/05/2023",
+    "stock": "184357",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
 
 
-{
-  "id":"123",
-  "name":"Robe à imprimé floral à noeud découpé",
-  "desc":"fdsfds",
-  "category": ["robe1","femme"],
-  "imgURL": ["/assets/images/products/robe1/1.webp",
-  "/assets/images/products/robe1/2.webp",
-  "/assets/images/products/robe1/3.webp"
-],
-  "new_prix":4670,
-  "old_prix": 6056,
-  "created_date":"12/05/2023",
-  "stock":"5488988",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
 
-},
-{
-  "id":"345",
-  "name":"Robe portefeuille à volants fleuri ",
-  "desc":"fdqfjlkssfjks",
-  "category": ["robe2","femme"],
-  "imgURL":
-  ["/assets/images/products/robe2/1.webp",
-  "/assets/images/products/robe2/2.webp",
-  "/assets/images/products/robe2/3.webp"
-],
-  "new_prix":1556,
-  "old_prix": 2056,
-  "created_date":"09/10/2022",
-  "stock":"554588",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
 
-},
 
-{
-  "id":"4556",
-  "name":"Robe fondue à fines brides avec boutons",
-  "desc":"fdsfds",
-  "category": ["robe1","femme"],
-  "imgURL": ["/assets/images/products/robe3/1.webp",
-  "/assets/images/products/robe3/2.webp",
-  "/assets/images/products/robe3/3.webp"
-],
-  "new_prix":2370,
-  "old_prix": 3456,
-  "created_date":"12/05/2023",
-  "stock":"5777788",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
 
-},
-{
-  "id":"123",
-  "name":"Robe à imprimé floral à noeud découpé",
-  "desc":"fdsfds",
-  "category": ["robe1","femme"],
-  "imgURL": ["/assets/images/products/robe1/1.webp",
-  "/assets/images/products/robe1/2.webp",
-  "/assets/images/products/robe1/3.webp"
-],
-  "new_prix":4670,
-  "old_prix": 6056,
-  "created_date":"12/05/2023",
-  "stock":"548",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  {
+    "id": "422098",
+    "name": "pull à noeud découpé",
+    "desc": "fddqsfdsfdlsd",
+    "categories": [
+      {  "id":"232",
+         "name":"pulls",
+         "created_date":"04/10/2021",
+         "update_date":"12/05/2022",
+         "slug":"pulls",
+         "author":"HNaas"
+      },
+      {
+         "id":"144",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"11/11/2021",
+         "update_date":"23/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/pulls/pulls1.webp",
+      "/assets/images/products/pulls/pulls1.2.webp",
+      "/assets/images/products/pulls/pulls1.3.webp",
+      "/assets/images/products/pulls/pulls1.1.webp"
+    ],
+    "new_prix": 3400,
+    "old_prix": 4500,
+    "created_date": "12/05/2023",
+    "stock": "657",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
 
-},
-{
-  "id":"345",
-  "name":"Robe portefeuille à volants fleuri ",
-  "desc":"fdqfjlkssfjks",
-  "category": ["robe2","femme"],
-  "imgURL":
-  ["/assets/images/products/robe2/1.webp",
-  "/assets/images/products/robe2/2.webp",
-  "/assets/images/products/robe2/3.webp"
-],
-  "new_prix":1556,
-  "old_prix": 2056,
-  "created_date":"09/10/2022",
-  "stock":"566688",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  {
+    "id": "43372",
+    "name": "pulls à noeud découpé",
+    "desc": "fddqsfdsfdlsd",
+    "categories": [
+      {  "id":"23",
+         "name":"pulls",
+         "created_date":"04/10/2021",
+         "update_date":"12/05/2022",
+         "slug":"pulls",
+         "author":"HNaas"
+      },
+      {
+         "id":"98760",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"11/11/2021",
+         "update_date":"23/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/pulls/pulls2.webp",
+      "/assets/images/products/pulls/pulls2.1.webp",
+      "/assets/images/products/pulls/pulls2.2.webp",
+      "/assets/images/products/pulls/pulls2.3.webp"
+    ],
+    "new_prix": 1450,
+    "old_prix": 3800,
+    "created_date": "12/05/2023",
+    "stock": "1357",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
 
-},
+  {
+    "id": "43372",
+    "name": "pulls à noeud découpé",
+    "desc": "fddqsfdsfdlsd",
+    "categories": [
+      {  "id":"23",
+         "name":"pulls",
+         "created_date":"04/10/2021",
+         "update_date":"12/05/2022",
+         "slug":"pulls",
+         "author":"HNaas"
+      },
+      {
+         "id":"98760",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"11/11/2021",
+         "update_date":"23/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/pulls/pulls1.webp",
+      "/assets/images/products/pulls/pulls1.1.webp",
+      "/assets/images/products/pulls/pulls1.2.webp",
+      "/assets/images/products/pulls/pulls1.3.webp"
+    ],
+    "new_prix": 1450,
+    "old_prix": 3800,
+    "created_date": "12/05/2023",
+    "stock": "1357",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
 
-{
-  "id":"345",
-  "name":"Robe portefeuille à volants fleuri ",
-  "desc":"fdqfjlkssfjks",
-  "category": ["robe2","femme"],
-  "imgURL":
-  ["/assets/images/products/robe2/1.webp",
-  "/assets/images/products/robe2/2.webp",
-  "/assets/images/products/robe2/3.webp"
-],
-  "new_prix":1556,
-  "old_prix": 2056,
-  "created_date":"09/10/2022",
-  "stock":"546688",
-  "color":["red","blue","green"],
-  "size":["s","M","L","XL"],
-  "additional_info":"fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
-  "vendor_info":"dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
-  "reviews":"sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  {
+    "id": "3362",
+    "name": "t-shirt à noeud découpé",
+    "desc": "fddqdsfdlsd",
+    "categories": [
+      {  "id":"33",
+         "name":"t-shirt",
+         "created_date":"04/10/2021",
+         "update_date":"12/05/2022",
+         "slug":"t-shirt",
+         "author":"HNaas"
+      },
+      {
+         "id":"2330",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"11/11/2021",
+         "update_date":"23/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/t-shirts/t-shirt1.webp",
+      "/assets/images/products/t-shirts/t-shirt1.2.webp",
+      "/assets/images/products/t-shirts/t-shirt1.3.webp",
+      "/assets/images/products/t-shirts/t-shirt1.1.webp"
+    ],
+    "new_prix": 3500,
+    "old_prix": 4990,
+    "created_date": "12/05/2023",
+    "stock": "144",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
 
+  {
+    "id": "3255",
+    "name": "t-shirt à noeud découpé",
+    "desc": "fddqdsfdlsd",
+    "categories": [
+      {  "id":"343",
+         "name":"t-shirt",
+         "created_date":"04/10/2021",
+         "update_date":"12/05/2022",
+         "slug":"t-shirt",
+         "author":"HNaas"
+      },
+      {
+         "id":"2330",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"11/11/2021",
+         "update_date":"23/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/t-shirts/t-shirt2.webp",
+      "/assets/images/products/t-shirts/t-shirt2.1.webp",
+      "/assets/images/products/t-shirts/t-shirt2.3.webp",
+      "/assets/images/products/t-shirts/t-shirt2.2.webp"
+    ],
+    "new_prix": 2700,
+    "old_prix": 5000,
+    "created_date": "12/05/2023",
+    "stock": "16",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+
+  {
+    "id": "3255",
+    "name": "t-shirt à noeud découpé",
+    "desc": "fddqdsfdlsd",
+    "categories": [
+      {  "id":"343",
+         "name":"t-shirt",
+         "created_date":"04/10/2021",
+         "update_date":"12/05/2022",
+         "slug":"t-shirt",
+         "author":"HNaas"
+      },
+      {
+         "id":"2330",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"11/11/2021",
+         "update_date":"23/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/t-shirts/t-shirt2.webp",
+      "/assets/images/products/t-shirts/t-shirt2.1.webp",
+      "/assets/images/products/t-shirts/t-shirt2.3.webp",
+      "/assets/images/products/t-shirts/t-shirt2.2.webp"
+    ],
+    "new_prix": 2700,
+    "old_prix": 5000,
+    "created_date": "12/05/2023",
+    "stock": "16",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+
+
+
+  {
+    "id": "3296",
+    "name": "cullote à noeud découpé",
+    "desc": "fddqdsfdlsd",
+    "categories": [
+      {  "id":"3355",
+         "name":"culotte",
+         "created_date":"04/10/2021",
+         "update_date":"12/05/2022",
+         "slug":"culottes",
+         "author":"HNaas"
+      },
+      {
+         "id":"20",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"11/11/2021",
+         "update_date":"23/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/culottes/culottes1.webp",
+      "/assets/images/products/culottes/culottes1.2.webp",
+      "/assets/images/products/culottes/culottes1.3.webp",
+      "/assets/images/products/culottes/culottes1.1.webp"
+    ],
+    "new_prix": 1700,
+    "old_prix": 2000,
+    "created_date": "12/05/2023",
+    "stock": "144",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+
+  {
+    "id": "3116",
+    "name": "cullotes à noeud découpé",
+    "desc": "fddqdsfdlsd",
+    "categories": [
+      {  "id":"335675",
+         "name":"culottes",
+         "created_date":"04/10/2021",
+         "update_date":"12/05/2022",
+         "slug":"culottes",
+         "author":"HNaas"
+      },
+      {
+         "id":"20444",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"11/11/2021",
+         "update_date":"23/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/culottes/culottes2.webp",
+      "/assets/images/products/culottes/culottes2.2.webp",
+      "/assets/images/products/culottes/culottes2.3.webp",
+      "/assets/images/products/culottes/culottes2.1.webp"
+    ],
+    "new_prix": 2300,
+    "old_prix": 2700,
+    "created_date": "12/05/2023",
+    "stock": "14555",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+
+  {
+    "id": "3116",
+    "name": "cullotes à noeud découpé",
+    "desc": "fddqdsfdlsd",
+    "categories": [
+      {  "id":"335675",
+         "name":"culottes",
+         "created_date":"04/10/2021",
+         "update_date":"12/05/2022",
+         "slug":"culottes",
+         "author":"HNaas"
+      },
+      {
+         "id":"20444",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"11/11/2021",
+         "update_date":"23/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/culottes/culottes1.webp",
+      "/assets/images/products/culottes/culottes1.2.webp",
+      "/assets/images/products/culottes/culottes1.3.webp",
+      "/assets/images/products/culottes/culottes1.2.webp"
+    ],
+    "new_prix": 2300,
+    "old_prix": 2700,
+    "created_date": "12/05/2023",
+    "stock": "14555",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+
+
+
+  {
+    "id": "4786",
+    "name": "short à noeud découpé",
+    "desc": "fddqdsfdlsd",
+    "categories": [
+      {  "id":"3355",
+         "name":"short",
+         "created_date":"04/10/2021",
+         "update_date":"12/05/2022",
+         "slug":"short",
+         "author":"HNaas"
+      },
+      {
+         "id":"2334",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"11/11/2021",
+         "update_date":"23/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/shorts/short1.webp",
+      "/assets/images/products/shorts/short1.2.webp",
+      "/assets/images/products/shorts/short1.3.webp",
+      "/assets/images/products/shorts/short1.1.webp"
+    ],
+    "new_prix": 1600,
+    "old_prix": 3400,
+    "created_date": "12/05/2023",
+    "stock": "14555",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+  {
+    "id": "3116",
+    "name": "short à noeud découpé",
+    "desc": "fddqdsfdlsd",
+    "categories": [
+      {  "id":"335675",
+         "name":"short",
+         "created_date":"04/10/2021",
+         "update_date":"12/05/2022",
+         "slug":"short",
+         "author":"HNaas"
+      },
+      {
+         "id":"22324",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"11/11/2021",
+         "update_date":"23/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/shorts/short2.webp",
+      "/assets/images/products/shorts/short2.2.webp",
+      "/assets/images/products/shorts/short2.3.webp",
+      "/assets/images/products/shorts/short2.1.webp"
+    ],
+    "new_prix": 500,
+    "old_prix": 1000,
+    "created_date": "12/05/2023",
+    "stock": "15555",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  },
+
+  {
+    "id": "3116",
+    "name": "short à noeud découpé",
+    "desc": "fddqdsfdlsd",
+    "categories": [
+      {  "id":"335675",
+         "name":"short",
+         "created_date":"04/10/2021",
+         "update_date":"12/05/2022",
+         "slug":"short",
+         "author":"HNaas"
+      },
+      {
+         "id":"22324",
+         "name":"femme",
+         "path":"/femmes",
+         "created_date":"11/11/2021",
+         "update_date":"23/07/2022",
+         "author":"HNaas"
+      }
+    ],
+    "imgURL": [
+      "/assets/images/products/shorts/short1.webp",
+      "/assets/images/products/shorts/short1.1.webp",
+      "/assets/images/products/shorts/short1.2.webp",
+      "/assets/images/products/shorts/short1.3.webp"
+    ],
+    "new_prix": 500,
+    "old_prix": 1000,
+    "created_date": "12/05/2023",
+    "stock": "15555",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "s",
+      "M",
+      "L",
+      "XL"
+    ],
+    "additional_info": "fjsdjkgfjkdgjfkdgkdfgdhkjheizuryeuiryeizdnssdfjdksjgj",
+    "vendor_info": "dsjfkksdfjkdshfpeoroieztouzroit dgfdfgkfdngjk sdgjkfdgjkfjkdg ndsfsjdfhdkdsfgfgfg",
+    "reviews": "sjdfkdsjfkjkdsjfksdfjkdskjfksjd"
+  }
+
+]
 }
 
 
-
-
-
-
-]

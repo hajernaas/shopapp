@@ -1,15 +1,18 @@
+<app-home-slider></app-home-slider>
+
 <div class="container">
-<div class="content">
-  <app-product-list></app-product-list>
-</div>
 
-
+  <div class="content">
+    <h1 class="tc">List of Products</h1>
+    <app-product-list [Product]="Products"
+                      [isLoading]="isLoading">
+    </app-product-list>
+  </div>
 
   <!--
      <app-sign-in></app-sign-in>
      <app-signup></app-signup>
      <app-connexion></app-connexion>
-
   -->
 
 </div>

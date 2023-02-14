@@ -7,21 +7,27 @@ export const nav_items : NavBar[]= [
 },
 {
   name:"Products",
-  path:"",
+  path:"/products",
 },
 {
   name:"Blog",
   path:"",
 },
+{
+  name:"Contact",
+  path:"/contact",
+}
+
+
 ]
 export const auth_items: NavBar[]=[
 {
-  name:"Sign In",
-  path:"signup",
+  name:"Sign Up",
+  path:"/signup",
 },
 {
-  name:"Sign Up",
-  path:"connexion",
+  name:"Sign In",
+  path:"/connexion",
 },
 ]
 

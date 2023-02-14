@@ -1,0 +1,48 @@
+.products-container{
+  min-height: 70vh;
+
+}
+.products-category{
+  min-width:130px;
+  text-align: center;
+  position: fixed;
+  left:15px;
+
+
+
+}
+.products-category h3{
+  text-align :center;
+}
+.products-category ul li a{
+  display:block;
+  height: 40px;
+  font-weight: bold;
+  padding:0 15px ;
+  background-color: #ccc;
+  margin: 10px 0;
+  cursor: pointer;
+  line-height: 45px;
+  border-radius: 10px;
+}
+
+.products-category ul li a.active{
+  background-color: #3f51b5;
+  color:white;
+
+}
+
+.product-item{
+ margin: 20px 0px;
+
+
+}
+
+
+@media screen and (max-width: 1200px)
+{
+  .products-category{
+    display:none;
+    }
+}
+

@@ -1,0 +1,40 @@
+.container-mat-card
+{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color:cornsilk;
+  border: 2px solid black;
+}
+
+mat-card{
+  width:90%;
+  max-width:400px;
+}
+
+mat-card-header{
+
+  display:block;
+  text-align:center;
+}
+mat-label{
+  width:70%;
+}
+input{
+  width:100%;
+  height: 50px;
+}
+mat-card-field{
+  width:100%;
+}
+#btn-login{
+  width:100%;
+}
+mat-error{
+
+  display: block;
+  width:100%;
+  text-align: center;
+  font-size:smaller;
+}
